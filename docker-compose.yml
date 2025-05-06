@@ -1,0 +1,61 @@
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo:/data/db
+    networks:
+      - continuous-compliance
+
+  ui:
+    image: ghcr.io/compliance-framework/ui:1.2.3
+    ports:
+      - "8000:80"
+    volumes:
+      - ./ui-config.json:/app/config.json
+    networks:
+      - continuous-compliance
+
+  api:
+    image: ghcr.io/compliance-framework/configuration-service:0.2.2
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./.env.api:/.env
+    networks:
+      - continuous-compliance
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      APP_PORT: "8080"
+
+  worker-1:
+    build:
+      context: ./worker
+      args:
+        AGENT_VERSION: 0.1.8
+    image: demo-agent:0.1.8
+    hostname: worker-1
+    volumes:
+      - ./worker/worker-1.yml:/config.yml
+    networks:
+      - continuous-compliance
+
+  worker-2:
+    build:
+      context: ./worker
+      args:
+        AGENT_VERSION: 0.1.8
+    image: demo-agent:0.1.8
+    hostname: worker-2
+    volumes:
+      - ./worker/worker-2.yml:/config.yml
+    networks:
+      - continuous-compliance
+
+volumes:
+  mongo:
+
+networks:
+  continuous-compliance:
+

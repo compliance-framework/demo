@@ -9,7 +9,7 @@ services:
       - continuous-compliance
 
   ui:
-    image: ghcr.io/compliance-framework/ui:1.2.3
+    image: ghcr.io/compliance-framework/ui:1.2.5
     ports:
       - "8000:80"
     volumes:
@@ -18,11 +18,12 @@ services:
       - continuous-compliance
 
   api:
-    image: ghcr.io/compliance-framework/configuration-service:0.2.2
+    image: ghcr.io/compliance-framework/configuration-service:0.2.8
     ports:
       - "8080:8080"
     volumes:
       - ./.env.api:/.env
+      - configuration-service-db:/data
     networks:
       - continuous-compliance
     environment:
@@ -55,7 +56,7 @@ services:
 
 volumes:
   mongo:
+  configuration-service-db:
 
 networks:
   continuous-compliance:
-

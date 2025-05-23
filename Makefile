@@ -55,3 +55,8 @@ load-catalogs: ## Load in the catalogs for the demo
 	@echo "Loading catalogs..."
 	@./scripts/load-catalogs.sh
 	@echo "... done"
+
+load-system-security-plans: ## Load in the system security plans for the demo
+	@echo "Loading system security plans..."
+	@./scripts/load-system-security-plans.sh
+	@echo "... done"

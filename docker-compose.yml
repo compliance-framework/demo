@@ -7,9 +7,23 @@ services:
       - mongo:/data/db
     networks:
       - continuous-compliance
+  db:
+    image: postgres:17
+    container_name: postgres-db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ccf
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - continuous-compliance
 
   ui:
-    image: ghcr.io/compliance-framework/ui:1.2.5
+    image: ghcr.io/compliance-framework/ui:1.2.8
     ports:
       - "8000:80"
     volumes:
@@ -18,17 +32,19 @@ services:
       - continuous-compliance
 
   api:
-    image: ghcr.io/compliance-framework/configuration-service:0.2.8
+    image: ghcr.io/compliance-framework/configuration-service:0.2.11
     ports:
-      - "8080:8080"
+      - 8080:8080
     volumes:
-      - ./.env.api:/.env
-      - configuration-service-db:/data
+      - ./oscal-content:/oscal-content
     networks:
       - continuous-compliance
     environment:
       MONGO_URI: mongodb://mongo:27017
-      APP_PORT: "8080"
+      CCF_DB_DEBUG: 0
+      APP_PORT: 8080
+      CCF_DB_DRIVER: postgres
+      CCF_DB_CONNECTION: "host=db user=postgres password=postgres dbname=ccf port=5432 sslmode=disable"
 
   worker-1:
     build:
@@ -56,6 +72,7 @@ services:
 
 volumes:
   mongo:
+  pgdata:
   configuration-service-db:
 
 networks:

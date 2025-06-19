@@ -1,0 +1,27 @@
+#!/bin/bash
+
+COMPOSE_COMMAND="${COMPOSE_COMMAND:-podman-compose}"
+CWD=$(pwd)
+
+start_all() {
+    ${COMPOSE_COMMAND} -f "${CWD}"/docker-compose.yml up -d
+}
+
+stop_all() {
+    ${COMPOSE_COMMAND} -f "${CWD}"/docker-compose.yml down
+}
+
+# Run is the default function. No need to call its name.
+run() {
+    ${COMPOSE_COMMAND} -f "${CWD}"/docker-compose.yml "$@"
+}
+
+# Check if the function exists
+if declare -f "$1" > /dev/null
+then
+  # call arguments verbatim
+  "$@"
+else
+  # Run a command against all
+  run "$@"
+fi

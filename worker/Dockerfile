@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install wget openssh-server golang-go git vim -y
 
 # Install the CCF agent
-ARG AGENT_VERSION="0.1.8"
+ARG AGENT_VERSION="0.2.0"
 RUN wget https://github.com/compliance-framework/agent/archive/refs/tags/v${AGENT_VERSION}.tar.gz -O agent.tar.gz && \
     tar -xzf agent.tar.gz && \
     mv agent-${AGENT_VERSION} agent && \

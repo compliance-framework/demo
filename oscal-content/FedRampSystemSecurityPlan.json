@@ -1,4 +1,5 @@
 {
+  "system-security-plan": {
     "back-matter": {
       "resources": [
         {
@@ -6462,4 +6463,5 @@
       ]
     },
     "uuid": "9809eddf-2cd5-468f-97c5-9769905d0629"
+  }
 }

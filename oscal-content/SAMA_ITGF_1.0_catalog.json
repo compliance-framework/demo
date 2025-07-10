@@ -1,0 +1,701 @@
+{
+  "catalog": {
+    "uuid": "0c454d8f-00be-443e-9778-b51eba818a1f",
+    "metadata": {
+      "title": "Electronic Version of SAMA Information Technology Governance and Leadership Controls and Assessment Procedures",
+      "last-modified": "2025-04-02T07:26:00.000000-00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.1.3",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Document creator"
+        },
+        {
+          "id": "contact",
+          "title": "Contact"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "41a93829-b76b-43ec-b9e7-250553511549",
+          "type": "organization",
+          "name": "Saudi Arabian Monetary Authority"
+        },
+        {
+          "uuid": "dbe8b210-df46-49a4-b760-c1c306df7955",
+          "type": "organization",
+          "name": "Container Solutions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "41a93829-b76b-43ec-b9e7-250553511549",
+            "dbe8b210-df46-49a4-b760-c1c306df7955"
+          ]
+        },
+        {
+          "role-id": "contact",
+          "party-uuids": [
+            "41a93829-b76b-43ec-b9e7-250553511549"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "3.1",
+        "class": "family",
+        "title": "Information Technology Governance and Leadership",
+        "parts": [
+          {
+            "id": "3.1_statement",
+            "name": "statement",
+            "prose": "Member Organizations board is ultimately responsible for setting the Information Technology (IT) Governance and ensuring that IT risks are effectively managed within the Member organization. The board of the Member Organization can delegate its IT Governance responsibilities to senior management or IT steering committee (ITSC). The ITSC could be responsible for defining the IT governance and setting the Member Organization's IT strategy."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.1.1",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Information Technology Governance",
+            "parts": [
+              {
+                "id": "3.1.1_statement",
+                "name": "statement",
+                "prose": "An IT Governance structure should be defined, endorsed and supported with appropriate resources to oversee and control the Member Organization's overall approach to Information Technology"
+              },
+              {
+                "id": "3.1.1_guidance",
+                "name": "guidance",
+                "prose": "1. Member organizations should establish ITSC and be mandated by the board.\n2. The ITSC should be headed by senior manager responsible for Member Organizations operations.\n3. The following positions should be represented in the ITSC:\n  a. senior managers from all relevant departments (e.g., CRO, CISO, compliance officer, heads of relevant business departments);\n  b. Chief Information Officer (CIO); and\n  c. Internal Audit may attend as an \"observer\".\n4. An ITSC charter should be developed, approved and reflect the following:\n  a. committee objectives;\n  b. roles and responsibilities;\n  c. minimum number of meeting participants;\n  d. meeting frequency (minimum on quarterly basis); and\n  e. documentation and retention of meeting minutes and decisions.\n5. A full-time senior manager for the IT function, referred to as CIO, should be appointed at senior management level.\n6. The Member Organizations should:\n  a. ensure the CIO is a Saudi national;\n  b. ensure the CIO is sufficiently qualified; and\n  c. obtain a written no objection letter from SAMA prior to assigning the CIO.\n7. The Member Organizations should establish formal practices for IT-related financial activities covering budget, cost, and prioritization of spending aligned with IT strategic objectives.\n8. The overall IT budget should be monitored, reviewed periodically and adjusted accordingly to meet the IT and business needs.\n9. Member Organizations should define roles and responsibilities of senior management and IT staff using a responsibility assignment matrix, also known as RACI. The RACI matrix should outline who are responsible and accountable for the functions, as well as who should be consulted or informed.\n10. Member organizations should define enterprise architecture reflecting fundamental components of the business processes and its supporting technology layers to ensure responsive and efficient delivery of strategic objectives.\n11. Member Organizations should define enterprise application architect role within the IT function to identify the required changes to the portfolio of applications across the member organizations ecosystem.\n12. Roles and responsibilities within IT function should be:\n  a. documented and approved by the management; and\n  b. segregated to avoid conflict of interest.\n13. Member Organizations should develop formal IT succession plan in coordination with Human Resource (HR) Department taking into consideration the reliance on a key IT staff having critical roles and responsibilities"
+              }
+            ]
+          },
+          {
+            "id": "3.1.2",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Information Technology Strategy",
+            "parts": [
+              {
+                "id": "3.1.2_statement",
+                "name": "statement",
+                "prose": "An IT strategy should be defined in alignment with the Member Organization's strategic objectives and in compliance with legal and regulatory requirements"
+              },
+              {
+                "id": "3.1.2_guidance",
+                "name": "guidance",
+                "prose": "1. IT strategy should be defined, approved, maintained and executed.\n2. IT strategic initiatives should be translated into defined roadmap considering the following:\n  a. the initiatives should require closing the gaps between current and target environments;\n  b. the initiatives should be integrated into a coherent IT strategy that aligns with the business strategy;\n  c. the initiatives should address the external ecosystem (enterprise partners, suppliers, start-ups, etc.); and\n  d. should include determining dependencies, overlaps, synergies and impacts among projects, and prioritization.\n3. IT strategy should be aligned with:\n  a. the Member Organization's overall business objectives; and\n  b. legal and regulatory compliance requirements of the Member Organization.\n4. IT strategy at minimum should address:\n  a. the importance and benefits of IT for the Member Organization;\n  b. the current business and IT environment, the future direction, and the initiatives required to migrate to the future state environment; and\n  c. interdependencies of the critical information assets.\n5. Member organization should identify IT strategic and emerging technology risks that may have impact on the achievement of overall organization wide strategic objectives.\n6. Member organization should enhance skill sets and expertise (operational and technical) of the existing resources through providing periodic training on emerging technologies and if required to have the relevant resources on boarded in line with member organization direction towards digitalization.\n7. IT strategy should be reviewed and updated periodically or upon material change in the Member Organizations operational environment, change in business strategy, objectives or amendment in laws & regulations"
+              }
+            ]
+          },
+          {
+            "id": "3.1.3",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Manage Enterprise Architecture",
+            "parts": [
+              {
+                "id": "3.1.3_statement",
+                "name": "statement",
+                "prose": "Enterprise architecture should be defined which outlines fundamental components of the business processes, data and supporting technology layers to ensure responsive and efficient delivery of Member organizations IT strategic objectives"
+              },
+              {
+                "id": "3.1.3_guidance",
+                "name": "guidance",
+                "prose": "1. The enterprise architecture should be defined, approved and implemented.\n2. The compliance with the enterprise architecture should be monitored.\n3. The enterprise architecture should address the following, but not limited to:\n  a. a strategic outline of organizations technology capabilities;\n  b. outline the gaps between baseline and target architectures, taking both business and technical perspectives; and\n  c. agility to meet changing business needs in an effective and efficient manner"
+              }
+            ]
+          },
+          {
+            "id": "3.1.4",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Information Technology Policy and Procedure",
+            "parts": [
+              {
+                "id": "3.1.4_statement",
+                "name": "statement",
+                "prose": "IT policy and procedures should be defined, approved, communicated and implemented to set member organizations commitment and objectives to IT and communicated to the relevant stakeholders"
+              },
+              {
+                "id": "3.1.4_guidance",
+                "name": "guidance",
+                "prose": "1. IT policy and procedures should be defined, approved, communicated, and implemented.\n2. IT policy and procedures should be reviewed periodically taking into consideration the evolving technology landscape.\n3. IT Policy should be developed considering input from relevant member organizations policies (e.g. cyber security, finance, HR).\n4. IT Policy should include:\n  a. the Member Organization's overall IT objectives and scope;\n  b. a statement of the board's intent, supporting the IT objectives;\n  c. a definition of general and specific responsibilities for IT; and\n  d. the reference to supporting IT (inter)national standards and process (where applicable)"
+              }
+            ]
+          },
+          {
+            "id": "3.1.5",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Roles and Responsibilities",
+            "parts": [
+              {
+                "id": "3.1.5_statement",
+                "name": "statement",
+                "prose": "IT roles and responsibilities should be defined and all parties involved in the Member Organization's IT processes should have an adequate level of understanding of the expectations related to their role"
+              },
+              {
+                "id": "3.1.5_guidance",
+                "name": "guidance",
+                "prose": "1. The board should be accountable for:\n  a. the ultimate responsibility for the establishment of IT governance practice;\n  b. ensuring that robust IT risk management framework is established and maintained to manage IT risks;\n  c. ensuring that sufficient budget for IT is allocated;\n  d. approving the IT steering committee (ITSC) charter; and\n  e. endorsing (after being approved by the ITSC):\n    1. the governance and management practices roles and responsibilities;\n    2. the IT strategy; and\n    3. the IT policy.\n2. ITSC, at a minimum, should be responsible for:\n  a. monitoring, reviewing and communicating the Member Organization's IT risks periodically;\n  b. approving, communicating, supporting and monitoring:\n    1. IT strategy;\n    2. IT policies;\n    3. IT risk management processes; and\n    4. key performance indicators (KPIs) and key risk indicators (KRIs) for IT.\n3. The CIO, at minimum, should be accountable for:\n  a. developing, implementing and maintaining:\n    1. IT strategy;\n    2. IT policy; and\n    3. IT budget.\n  b. ensuring that detailed IT standards and procedures are established, approved and implemented;\n  c. delivering risk-based IT solutions that address people, process and technology;\n  d. defining and maintaining specific key performance indicators (KPIs) and key risk indicators (KRIS) for IT processes;\n  e. periodically inform ITSC on the latest developments on IT strategic initiatives and its implementation status;\n  f. implementing adequate technology to streamline all internal operations and help optimize their strategic benefits;\n  g. the IT activities across the Member Organization, including:\n    1. monitoring of the IT operation;\n    2. monitoring of compliance with IT regulations, policies, standards and procedures; and\n    3. overseeing the investigation of IT related incidents.\n  h. analyzing IT costs, value and risks to advise COO/Managing director; and\n  i. defining IT training plan in coordination with HR.\n4. The internal audit function should be responsible for:\n  a. the identification of comprehensive set of auditable areas for IT risk and performance of effective IT risk assessment during audit planning; and\n  b. performing IT audits.\n5. The enterprise application architect, at minimum should be responsible for:\n  a. developing of IT ecosystem application architecture models, processes and documentation;\n  b. developing enterprise level application and custom integration solutions including major enhancements and interfaces, functions and features; and\n  c. ensuring continuous improvement to transition between current and future states of the application architectures.\n6. All Member Organization's staff should be responsible for complying with applicable IT policy, standards and procedures"
+              }
+            ]
+          },
+          {
+            "id": "3.1.6",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Regulatory Compliance",
+            "parts": [
+              {
+                "id": "3.1.6_statement",
+                "name": "statement",
+                "prose": "Relevant regulations including data privacy should be identified, communicated and complied which are affecting IT operations of the Member Organizations"
+              },
+              {
+                "id": "3.1.6_guidance",
+                "name": "guidance",
+                "prose": "1. Member Organizations should establish a process ensuring compliance with IT related regulatory requirements. The process of ensuring compliance should:\n  a. be performed periodically or when new regulatory requirements become effective;\n  b. involve representatives from key areas of the Member Organization;\n  c. result in the update of IT policy, standards and procedures to accommodate any necessary changes (if applicable); and\n  d. maintain an up-to-date log of all relevant legal, regulatory and contractual requirements; their impact and required actions"
+              }
+            ]
+          },
+          {
+            "id": "3.1.7",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Internal IT Audit",
+            "parts": [
+              {
+                "id": "3.1.7_statement",
+                "name": "statement",
+                "prose": "IT Audit should be conducted in accordance with generally accepted auditing standards and relevant SAMA framework (s) to verify that the IT control design is adequately implemented and operating as intended"
+              },
+              {
+                "id": "3.1.7_guidance",
+                "name": "guidance",
+                "prose": "1. IT audits should be performed independently and according to generally accepted auditing standards and relevant SAMA frameworks.\n2. The Member Organizations should establish an audit cycle that determines the frequency of IT audits.\n3. Member Organizations should develop formal IT audit plan addressing people, process and technology components.\n4. IT audit plan should be approved by the Member Organization's audit committee.\n5. The frequency of IT audit should be aligned with the criticality and risk of the IT system or process.\n6. A follow-up process for IT audit observations should be established to track and monitor IT audit observations.\n7. Member Organizations should ensure that the IT auditors have the requisite level of competencies and skills to effectively assess and evaluate the adequacy of IT policies, procedures, processes and controls implemented.\n8. IT audit report, at a minimum, should:\n  A. include the findings, recommendations, management's response with defined action plan, and responsible party and limitations in scope with respect to the IT audits;\n  b. signed, dated and distributed according to the format defined; and\n  c. submitted to the audit committee on periodical basis"
+              }
+            ]
+          },
+          {
+            "id": "3.1.8",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Staff Competence and Training",
+            "parts": [
+              {
+                "id": "3.1.8_statement",
+                "name": "statement",
+                "prose": "Staff of the Member Organizations should be equipped with the skills and required knowledge to operate the Member Organization's information assets in a controlled manner and provided with training regarding how to operate, address and apply IT relevant controls on Member Organization's information assets"
+              },
+              {
+                "id": "3.1.8_guidance",
+                "name": "guidance",
+                "prose": "1. Member Organizations should identify and define critical roles within IT department (e.g. DBA, sysadmin, etc.)\n2. Member Organizations should ensure adequate staffing for critical IT roles, such that critical IT roles are not handled by only one staff.\n3. Member Organizations should identify the professional certifications required for staff responsible for critical IT roles.\n4. Member Organizations should evaluate staffing requirements on periodic basis or upon major changes to the business, operational or IT environments to ensure that the IT function has sufficient resources.\n5. Annual IT training plan should be developed by the Member Organizations.\n6. Formal training should be conducted, as a minimum for:\n  a. IT staff (existing and new); and\n  b. Contractors (where applicable).\n7. IT training plan should be reviewed periodically.\n8. Specialist training should be provided to staff in the Member Organization's relevant functional area categories in line with their job descriptions, including:\n  a. staff involved in performing critical IT roles;\n  b. staff involved in developing and (technically) maintaining information assets; and\n  c. staff involved in risk assessments"
+              }
+            ]
+          },
+          {
+            "id": "3.1.9",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Performance Management",
+            "parts": [
+              {
+                "id": "3.1.9_statement",
+                "name": "statement",
+                "prose": "Efficiency and effectiveness of IT processes and services of the Member Organizations should be continuously measured through key performance indicators (KPIs)"
+              },
+              {
+                "id": "3.1.9_guidance",
+                "name": "guidance",
+                "prose": "1. KPIs should be defined, approved and implemented to measure the execution of IT processes and system performance.\n2. KPIs should be defined considering for the following, but not limited to:\n  a. IT function and related processes;\n  b. workforce competency and development; and\n  c. compliance with regulatory regulations.\n3. KPIs should be:\n  a. communicated to the concerned IT Divisions/Units of the Member Organizations for implementation;\n  b. supported by target value and thresholds;\n  c. analyzed to identify the deviations against targets and initiate remedial actions;\n  d. analyzed to identify trends in performance and compliance and take appropriate action; and\n  e. monitored and periodically reported to the senior management and ITSC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.2",
+        "class": "family",
+        "title": "IT Risk Management",
+        "parts": [
+          {
+            "id": "3.2_statement",
+            "name": "statement",
+            "prose": "IT Risk Management is a continues process of identifying, analyzing, responding, monitoring, and reviewing risks related to IT from process, technology and people perspectives. In order to manage IT risks, Member Organizations should continually identify, assess and reduce IT risks within levels of tolerance set by the Member Organization's senior management."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.2.1",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Managing IT Risk",
+            "parts": [
+              {
+                "id": "3.2.1_statement",
+                "name": "statement",
+                "prose": "IT Risk Management process should be defined, approved, implemented, communicated and aligned to the Member Organization's Enterprise Risk Management process, including the identification, analysis, treatment, monitoring and review of IT risks at appropriate intervals"
+              },
+              {
+                "id": "3.2.1_guidance",
+                "name": "guidance",
+                "prose": "1. IT risk management process should be defined, approved, implemented and communicated.\n2. The effectiveness of the IT risk management process should be measured and periodically evaluated.\n3. IT risk management process should be aligned with the Member Organization's enterprise risk management process.\n4. IT risk management process should clearly address the following sub processes, including but not limited to:\n  a. risk identification, analysis and classification;\n  b. risk treatment;\n  c. risk reporting; and\n  d. risk monitoring and profiling.\n5. IT risk management process should address Member Organization's information assets, including but not limited to:\n  a. business processes and related data;\n  b. business applications;\n  c. infrastructure components; and\n  d. Third party relationships and associated risks.\n6. IT risk management process should address Member Organization's people aspect (i.e. permanent staff, contractual employees, third party).\n7. IT risk management process should be initiated at, but not limited to:\n  a. an early stage of the program and project implementation;\n  b. prior to initiate critical and major changes to the information assets;\n  c. the time of outsourcing services; and\n  d. prior to procuring of new systems, tools and emerging technologies (i.e. Distributed Ledger Technology (DTL), Robotic Process Assurance (RPA) etc.)\n8. Existing information assets should be subject to periodic IT risk assessment based on their criticality such as:\n  a. all mission critical and critical information assets should be assessed at least once a year; and\n  b. non-critical information assets should be assessed based on their importance to the business.\n9. IT risk management activities should involve the following stakeholders, but not limited to:\n  A. business owners and users;\n  b. IT departmental/functional heads;\n  c. technical administrators; and\n  d. cyber security specialists.\n10. The Member Organization's should develop and implement IT risk response (i.e. avoid, mitigate, transfer and accept) and control strategies that are consistent with the value of the information assets and member organizations risk appetite.\n11. IT key risk indicators (KRIS) should be defined, implemented and monitored"
+              }
+            ]
+          },
+          {
+            "id": "3.2.2",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Risk Identification and Analysis",
+            "parts": [
+              {
+                "id": "3.2.2_statement",
+                "name": "statement",
+                "prose": "Information assets should be identified, recorded and maintained to gather information about related threats, existing controls and associated risks should be analyzed based on their likelihood of occurrences and resulting impact"
+              },
+              {
+                "id": "3.2.2_guidance",
+                "name": "guidance",
+                "prose": "1. IT risk identification should be performed, documented and periodically updated in the formal centralized risk register.\n2. IT risk register should be regularly updated.\n3. IT risk analysis should address the following, but not limited to:\n  a. information asset description and classification;\n  b. potential threat(s) to the information asset;\n  c. impact and likelihood;\n  d. existing IT controls;\n  e. risk owner (business or process owner);\n  f. implementation owner (control owner); and\n  g. inherent as well as residual risks related to the information assets"
+              }
+            ]
+          },
+          {
+            "id": "3.2.3",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Risk Treatment",
+            "parts": [
+              {
+                "id": "3.2.3_statement",
+                "name": "statement",
+                "prose": "IT risks associated with the Member Organization's information assets should be adequately treated based on the applicable criteria (i.e. accepted, avoided, transferred or mitigated)"
+              },
+              {
+                "id": "3.2.3_guidance",
+                "name": "guidance",
+                "prose": "1. IT risk treatment plan should be defined, approved and communicated.\n2. IT risk treatment plan should be implemented and periodically evaluated.\n3. IT risks should be treated according to the Member Organization's risk appetite defined by the relevant governance function owner and approved by the ITSC.\n4. IT risk treatment plan should include detail design and implementation of required controls to mitigate the identified risks.\n5. IT risk treatment plan should ensure that the list of risk treatment options are formally documented (i.e. accepting, avoiding, transferring or mitigating risks by applying IT controls).\n6. Risk acceptance should be least preferred over risk mitigation through implementation of primary controls.\n7. Accepting IT risks should be formally documented, approved and signed-off by the business owner and reported to the risk committee, ensuring that:\n  a. risk acceptance should be provided with detail justification including but not limited to the following:\n    1. impact (i.e. operational, financial and reputational) of not implementing the primary control(s); and\n    2. compensating control(s) in place of primary control(s) for risk mitigation.\n  b. the accepted IT risk should be within the risk appetite of the Member Organization;\n  c. the accepted IT risk should not contradict with the SAMA regulations;\n  d. a separate exception should be documented for each unique risk;\n  e. risk acceptance should be renewed periodically; and\n  f. Risk acceptance should be presented and reported to the risk committee.\n8. Avoiding IT risks should involve a decision by a business owner and risk committee to cancel or postpone a particular activity or project that introduces an unacceptable IT risk to the business.\n9. Transferring or sharing the IT risks should:\n  a. involve sharing the IT risks with relevant (internal or external) providers; and\n  b. be accepted by the receiving (internal or external) provider(s).\n10. Applying IT controls to mitigate IT risks should include:\n  A. identifying appropriate IT controls;\n  b. evaluating the strengths and weaknesses of the IT controls;\n  c. selection of adequate IT controls; and\n  d. documenting and obtaining sign-off for any residual risk by the business owner and risk committee.\n11. IT risk treatment actions should be documented in a risk treatment plan"
+              }
+            ]
+          },
+          {
+            "id": "3.2.4",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Risk Reporting, Monitoring, and Profiling",
+            "parts": [
+              {
+                "id": "3.2.4_statement",
+                "name": "statement",
+                "prose": "IT risks should be treated according to the defined treatment plans and should be effectively reviewed, monitored and reported"
+              },
+              {
+                "id": "3.2.4_guidance",
+                "name": "guidance",
+                "prose": "1. IT risk assessment results should be formally documented and reported to the relevant business owners and senior management.\n2. IT risk assessment results should include risks, impact, likelihood, mitigations, and remediation status.\n3. IT risks should be monitored, including but not limited to:\n  a. tracking progress in accordance to the risk treatment plan; and\n  b. the selected and agreed IT controls are being implemented.\n4. The design and operating effectiveness of the revised or newly implemented IT controls should be monitored and reviewed periodically.\n5. The relevant business owners should accept the IT risk assessment results.\n6. IT risk assessment results should be endorsed by the risk committee.\n7. IT key risk indicators (KRIS) should be defined, implemented and monitored.\n8. IT risk profile and related data should be provided as an input to operational risk department to formulate an organization level risk profile.\n9. IT risk profile should be formulated and presented to the senior management, IT Steering Committee and board of directors on periodic basis"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.3",
+        "class": "family",
+        "title": "Operations Management",
+        "parts": [
+          {
+            "id": "3.3_statement",
+            "name": "statement",
+            "prose": "IT Operations Management can be defined as the function responsible for continues management and maintenance of the Members Organization's IT applications and infrastructure to ensure delivery of the agreed level of IT services to the business. Thus, IT operations risk factors should be addressed by the Member Organizations through effective management and control."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.3.1",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Manage Assets",
+            "parts": [
+              {
+                "id": "3.3.1_statement",
+                "name": "statement",
+                "prose": "Asset Management process should be established to provide visibility of the Member Organization's information assets by maintaining an accurate and up-to-date inventory"
+              },
+              {
+                "id": "3.3.1_guidance",
+                "name": "guidance",
+                "prose": "1. The asset management process should be defined, approved, implemented and communicated.\n2. The effectiveness of the asset management process should be monitored, measured and periodically evaluated.\n3. The asset management process should include but not limited to:\n  a. asset onboarding;\n  b. asset identification, classification, labeling and handling;\n  c. asset disposal; and\n  d. asset decommissioning.\n4. Asset register should provide with the level of details, including (but not limited):\n  a. asset name;\n  b. asset owner;\n  c. asset custodian; asset criticality;\n  d. asset physical location;\n  e. asset logical location (network zone);\n  f. asset identified as direct in-scope of PCI;\n  g. asset identified as indirect in-scope of PCI;\n  h. availability or backup information;\n  i. service contract or license information;\n  j. technical contacts (OS, Application, Database and Network);\n  k. primary and secondary processes supported by the asset;\n  l. acceptable downtime aligned with BCM - Business Impact Analysis where applicable;\n  m. financial impact per hour in the event of downtime;\n  n. vendor engagement contract number;\n  o. vendor point of contact details;\n  p. vendor SLA details; and\n  q. vendor classification details.\n5. Asset register should be maintained and updated on yearly basis, or whenever any asset introduced or removed from inventory.\n6. Member organizations should:\n  a. define criteria for the identification of critical assets;\n  b. identify, maintain and periodically update comprehensive list of critical assets;\n  c. proactively monitor performance of critical assets; and\n  d. ensure adequate resilience measures in place for critical assets to maintain availability of the required critical services.\n7. Asset owner should be responsible for, but not limited to:\n  a. classification and labeling of asset;\n  b. defining and reviewing access rights, restrictions, and taking into account applicable access control policies of the Member Organizations;\n  c. authorizing changes related to assets; and\n  d. ensure alignment with cyber security controls.\n8. Assets should be disposed of in a controlled and secure manner upon completion of its useful life and when other relevant obligations are met"
+              }
+            ]
+          },
+          {
+            "id": "3.3.2",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Interdependencies",
+            "parts": [
+              {
+                "id": "3.3.2_statement",
+                "name": "statement",
+                "prose": "Interdependencies for critical information assets should be identified and managed through governance model to ensure availability of business operations"
+              },
+              {
+                "id": "3.3.2_guidance",
+                "name": "guidance",
+                "prose": "1. Member Organizations should define and implement robust governance model in light of their interdependencies with relevant stakeholders (e.g. service providers, government institutions, etc.)\n2. Member Organizations should identify its critical information assets interdependencies.\n3. As part of the BCP testing, the Member Organizations should take into consideration the interdependencies of critical information assets scenarios within its infrastructure\n\nNote: For more Control Requirements"
+              }
+            ]
+          },
+          {
+            "id": "3.3.3",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Manage Service Level Agreements",
+            "parts": [
+              {
+                "id": "3.3.3_statement",
+                "name": "statement",
+                "prose": "Contractual terms and conditions governing the roles, relationships, obligations and responsibilities of internal stakeholder and third parties should be formally agreed, developed and adequately controlled"
+              },
+              {
+                "id": "3.3.3_guidance",
+                "name": "guidance",
+                "prose": "1. Internal IT Service Level Agreement (SLA) should be formally defined, approved, and communicated to the relevant business department of the Member Organizations.\n2. The effectiveness of the internal IT SLA should be monitored, measured, and periodically evaluated. 3. Internal IT SLA should include the following, but not limited to:\n  a. service level agreed between the business functions and the IT department;\n  b. specific and measurable targets for IT services against the defined KPI's; and\n  c. roles and responsibilities of the business and IT stakeholders.\n4. The third party relationship process should be defined, approved, implemented, and communicated.\n5. The effectiveness of the third party relationship process should be monitored, measured, and periodically evaluated.\n6. Formal SLA should be defined and signed with the third party.\n7. The third party relationship process should cover following requirements, but not limited to:\n  a. outsourcing service providers should have adequate process in place to ensure availability, protection of data and applications outsourced;\n  b. periodic reporting, reviewing and evaluating the contractually agreed requirements (in SLAs);\n  c. changes to the provision of provided services;\n  d. execution of a risk assessment as part of the procurement process;\n  e. escalation process in case of SLA breached;\n  f. administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of information;\n  g. legal assurance from the third party to provide onsite support that mandates onsite presence of certified and experienced relevant support engineer within a defined timeline to support the Member Organizations in adverse situations;\n  h. exiting, terminating, or renewing the contract (including escrow agreements if applicable);\n  i. compliance with applicable frameworks including but not limited to SAMA Cyber Security, Business Continuity Management and IT Governance Frameworks-and applicable Laws and Regulations\n  j. right to audit (Member Organizations or independent party); and\n  k. Non-Disclosure Agreement ('NDA')"
+              }
+            ]
+          },
+          {
+            "id": "3.3.4",
+            "class": "SAMA_ITGF_1.0",
+            "title": "IT Availability and Capacity Management",
+            "parts": [
+              {
+                "id": "3.3.4_statement",
+                "name": "statement",
+                "prose": "Service availability should be maintained to support member organizations business functions and to avoid. disruption and slowness of systems performance through monitoring current system thresholds and prediction of future performance and capacity requirements"
+              },
+              {
+                "id": "3.3.4_guidance",
+                "name": "guidance",
+                "prose": "1. The IT availability and capacity management process should be defined, approved and implemented.\n2. The effectiveness of the IT availability and capacity management process should be monitored, measured and periodically evaluated.\n3. IT availability and capacity plan should be developed, approved and periodically evaluated.\n4. IT availability and capacity plan should be defined to address the following, but not limited to:\n  a. existing capacity of systems and resources;\n  b. alignment with the current and future business needs;\n  c. high availability requirements (including disruption and slowness for customer channels);\n  d. roles and responsibilities to maintain the plan; and\n  e. identification of dependencies over service providers as part of capacity planning to address BCM requirements.\n5. System performance thresholds should be defined and implemented.\n6. System performance should be monitored considering the following, but not limited to:\n  a. current and future business requirement;\n  b. the agreed upon SLA with the business;\n  c. critical IT infrastructures;\n  d. disruption and slowness in the underlying system(s) supporting customer channels; and\n  e. lessons learned from previous system performance issues.\n7. Deviations from established capacity and performance baselines/thresholds should be identified, documented, followed-up, and reported to the management and ITSC"
+              }
+            ]
+          },
+          {
+            "id": "3.3.5",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Manage Data Center",
+            "parts": [
+              {
+                "id": "3.3.5_statement",
+                "name": "statement",
+                "prose": "Adequate physical controls are designed and implemented to protect IT facilities and equipment from damage and unauthorized access"
+              },
+              {
+                "id": "3.3.5_guidance",
+                "name": "guidance",
+                "prose": "1. Physical and environmental controls for managing the data center should be defined, approved and implemented.\n2. Physical and environmental controls should be monitored and periodically evaluated.\n3. Necessary physical and environmental controls should be implemented such as but not limited to:\n  a. access to the data center should be strictly controlled and provided on need to know basis;\n  b. visitors entry to data center should be logged and escorted by an authorized person;\n  c. smoke detectors;\n  d. fire alarms;\n  e. fire extinguishers;\n  f. humidity control;\n  g. temperature monitoring; and\n  h. CCTV.\n4. The outsourcing of data center should comply with the requirements published in the SAMA circulars on the Rules of The Outsourcing and Cybersecurity Framework.\n5. Member Organizations should ensure that appropriate control measures are built into contracts with the service providers to whom they plan to outsource data center such as but not limited to:\n  a. have documented business case for outsourcing data center services; and\n  b. nature and type of access to data center by the service provider"
+              }
+            ]
+          },
+          {
+            "id": "3.3.6",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Network Architecture and Monitoring",
+            "parts": [
+              {
+                "id": "3.3.6_statement",
+                "name": "statement",
+                "prose": "IT event management and network architecture controls should be designed and implemented to continuously monitor IT operations in order to protect member organizations network from unauthorized access"
+              },
+              {
+                "id": "3.3.6_guidance",
+                "name": "guidance",
+                "prose": "1. Member Organizations should define, approve and implement network architecture policy considering the following:\n  a. organization's stance with respect to acceptable network usage;\n  b. explicit rules for the secure use of specific network resources, services and applications;\n  c. consequences of failure to comply with security rules;\n  d. organization's attitude towards network abuse; and\n  e. rationale(s) for the policy, and for any specific security rules.\n2. Member Organizations should ensure the implementation of following network architecture controls, but not limited to:\n  a. network diagram showing the complete current infrastructure;\n  b. segmentation of network into multiple separate network domains based on the required trust levels (e.g. public domain, desktop domain, server domain) and in line with relevant architectural principles;\n  c. perimeter of each network domain should be well protected by a security gateway (e.g. firewall, filtering router). For each security gateway a separate service access (security) rules should be developed and implemented to ensure that only the authorized traffic is allowed to pass;\n  d. all internal traffic (head office users, branch users, third party users, etc.) passing to DMZ or internal servers should pass via a security gateway (firewall);\n  e. all outbound internet access from internal networks are routed via proxy server such that access is allowed only to approved authenticated users;\n  f. visitor network (wired/wireless network) should be isolated and segregated from the internal network;\n  g. the perimeter firewall to the DMZ should raise an alert and block active scanning;\n  h. web application firewall (WAF) should be implemented against customer facing applications;\n  i. ensure non-existence of single node of failure that affects the critical service availability;\n  j. centralized authentication server (AAA, TACACS or RADIUS, etc.) should be deployed for managing authentication and authorization of network devices;\n  k. centralized log server (e.g. syslog server) should be deployed to collect and store logs from all network devices;\n  I. retention period for logs should be 12 months minimum;\n  m. all network devices should synchronize their clock timings from a centralized NTP server;\n  n. all network communication over extranet (WLAN) and internet should be through an encrypted channel;\n  o. remote access should be restricted only to certain group of IP addresses;\n  p. remote administration should be over an encrypted channel (like SSL VPN, SSH);\n  q. remote administration access for vendors should be time-bound and granted on a need basis with approval;\n  r. scan for Member Organization's devices before accessing the network to ensure enforcement of security policies on devices before they access organization's network; and\n  s. segregation of duties within the infrastructure component (supported with a documented authorization profile matrix).\n3. Member Organizations should ensure that network monitoring is performed considering the following, but not limited to:\n  a. administrative trails including login and activity trails (like configuration change, rule change, etc.);\n  b. resource utilization (processor and memory); and\n  c. network connectivity to all branches and ATMs"
+              }
+            ]
+          },
+          {
+            "id": "3.3.7",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Batch Processing",
+            "parts": [
+              {
+                "id": "3.3.7_statement",
+                "name": "statement",
+                "prose": "Batch management process should be defined, approved and implemented in order to manage the bulk processing of automated tasks in an efficient and controlled manner"
+              },
+              {
+                "id": "3.3.7_guidance",
+                "name": "guidance",
+                "prose": "1. Batch management process should be defined, approved, implemented and communicated.\n2. The effectiveness of the Batch management process should be measured and periodically evaluated.\n3. Batch Management process should include the following, but not limited to:\n  a. start and end of day schedules;\n  b. roles and responsibilities;\n  c. monitoring of batches; and\n  d. error or exception handling\n4. Changes in the batch schedules should be approved by the relevant stakeholder(s)\n5. Member organizations should maintain log containing information about start and end of the day batch operations along with its status e.g. (successful or unsuccessful)"
+              }
+            ]
+          },
+          {
+            "id": "3.3.8",
+            "class": "SAMA_ITGF_1.0",
+            "title": "IT Incident Management",
+            "parts": [
+              {
+                "id": "3.3.8_statement",
+                "name": "statement",
+                "prose": "IT incident Management process should be established to timely identify, respond and handle IT incidents. impacting the Member Organization's information assets and to report relevant incidents to SAMA, according to a defined communication protocol"
+              },
+              {
+                "id": "3.3.8_guidance",
+                "name": "guidance",
+                "prose": "1. IT incident management process should be defined, approved, implemented and communicated.\n2. The effectiveness of the IT incident management process should be measured and periodically evaluated.\n3. IT incident management process should include the following requirements, but not limited to:\n  a. the establishment of a designated team responsible for incident management;\n  b. communication plan;\n  c. details of key staff who need to be notified;\n  d. skilled and (continuously) trained staff;\n  e. the prioritization and classification of incidents;\n  f. the timely handling of incidents, recording and monitoring progress;\n  g. the protection of relevant evidence and loggings;\n  h. post-incident activities such as root-cause analysis of the incidents; and\n  i. lessons learned.\n4. IT incident management process should be automated such as through IT service desk.\n5. A process should be established for documenting the details of incident, steps taken which were successful and which were not successful, should be communicated to the relevant IT staff for hands on experience and also for future reference to enhance efficiency.\n6. All user requests and IT incident should be logged with the following information but not limited to:\n  a. unique reference number;\n  b. date and time;\n  c. name of the impacted services and systems;\n  d. update the relevant owner; and\n  e. categorization and prioritization based on the urgency and impact.\n7. All IT incident should be tracked and resolved as per agreed service level.\n8. Member organizations relevant teams should be involved (when applicable) to ensure adequate handling of the incident.\n9. The Member Organizations should inform 'General Department of Cyber Risk Control' immediately upon identification of 'Medium' or above classified incident that have impact on customers, as per SAMA BCM Framework.\n10. The Member Organizations should inform 'General Department of Cyber Risk Control' immediately upon identification of disruption and slowness in the critical and/or application(s) impacting customer.\n11. Member Organizations should notify 'General Department of Cyber Risk Control' before disclosing any information about the incident to the media.\n12. The Member Organizations should submit a detail incident report within five (5) days to 'General Department of Cyber Risk Control', including the following details as a minimum:\n  a. title of the incident;\n  b. identification, classification and prioritization of incident;\n  c. logging and monitoring of incident;\n  d. resolution and closure of incident;\n  e. impact assessment such as financial, data, customer and/or reputational;\n  f. date and time of the incident;\n  g. name of the impacted services and systems;\n  h. root-cause analysis; and\n  i. corrective actions with target dates"
+              }
+            ]
+          },
+          {
+            "id": "3.3.9",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Problem Management",
+            "parts": [
+              {
+                "id": "3.3.9_statement",
+                "name": "statement",
+                "prose": "Criteria and procedures to report problems should be defined to limit recurring incidents and to minimize the impact of incidents on the Member Organizations"
+              },
+              {
+                "id": "3.3.9_guidance",
+                "name": "guidance",
+                "prose": "1. The problem management process should be defined, approved, implemented and communicated.\n2. The effectiveness of the problem management process should be measured and periodically evaluated.\n3. The problem management process should include the following requirements but not limited to:\n  a. identification, classification and prioritization of problem;\n  b. logging and monitoring of problem;\n  c. resolution and closure of problem;\n  d. the protection of relevant evidence and loggings;\n  e. impact assessment such as financial, data, customer and/or reputational;\n  f. date and time of the problem;\n  g. name of the impacted services and systems;\n  h. root-cause analysis; and\n  i. corrective actions.\n4. The Member Organizations should maintain a database for known error records"
+              }
+            ]
+          },
+          {
+            "id": "3.3.10",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Data Backup and Recoverability",
+            "parts": [
+              {
+                "id": "3.3.10_statement",
+                "name": "statement",
+                "prose": "Data backup management strategy along with backup and restoration procedures should be defined, approved and implemented to ensure reliability, availability, and recoverability of data of the Member Organizations"
+              },
+              {
+                "id": "3.3.10_guidance",
+                "name": "guidance",
+                "prose": "1. Data backup management strategy should be defined, approved and implemented.\n2. The data backup management policy should consider the following, but not limited to:\n  a. alignment with SAMA Business Continuity Management Framework;\n  b. implementation of replication, backup and recovery capabilities;\n  c. data storage;\n  d. data retrieval; and data retention as per the legal, regulatory and business requirements.\n3. Backup and restoration procedures should be defined, approved and implemented.\n4. The effectiveness of the backup and restoration procedure should be measured and periodically evaluated.\n5. Member Organizations should define its backup and restoration requirements considering the following, but not limited to:\n  a. legal and regulatory requirements;\n  b. business requirements in line with agreed RPO (Recover Point Objective);\n  c. type of backups (offline, online, full, incremental, etc.); and\n  d. schedule of the backup (daily, weekly, monthly, etc.).\n6. Member Organizations should ensure the following information are backed up at minimum:\n  a. applications;\n  b. operating systems software;\n  c. databases; and\n  d. device configurations.\n7. In case of replication of data between primary and disaster recovery site, Member Organizations should ensure that all replication issues are timely resolved such that data at the disaster recovery site are in sync with the primary site as per the agreed recovery point objective (RPO) and recovery time objective (RTO).\n8. Member Organizations should ensure that RTOS for critical services such as payment systems, customer related services, etc. are adequately defined considering the high availability of the supporting operations and minimum disruption in the event of disaster.\n9. Member Organization should ensure sufficient investment are made from people, process and technology perspective to achieve the targeted RTOS.\n10. Member Organizations should implement alternate mechanism for backup redundancy (e.g. transaction dumps in addition to full database backup).\n11. Member Organizations should conduct periodic testing and validation of the recovery capability of backup media.\n12. Backup media should be appropriately labelled.\n13. Backup media including USB disks, containing sensitive or confidential information should be encrypted before transportation to offsite for storage"
+              }
+            ]
+          },
+          {
+            "id": "3.3.11",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Virtualization",
+            "parts": [
+              {
+                "id": "3.3.11_statement",
+                "name": "statement",
+                "prose": "Formal process for creation, distribution, storage, use and retirement of virtualized images, snapshots or containerization should be defined and managed in a controlled and secured manner"
+              },
+              {
+                "id": "3.3.11_guidance",
+                "name": "guidance",
+                "prose": "1. A process should be defined, approved, implemented and communicated by the Member Organizations to setup, deploy and configure a virtual environment.\n2. The process should be governed with well-defined policies, procedures and standards.\n3. The effectiveness of the virtualization or containerization process should be measured and periodically evaluated.\n4. All virtual components deployed in the Member Organizations should be provided with the same level of security as of non-virtualized environment.\n5. All virtual components should be adequately configured using defined and approved minimum baseline security standards (MBSS) specific to virtualization or containerization.\n6. Strong authentication mechanism should be implemented and access should be granted on need to know or least privileged basis for all virtual environments including host operating system, hypervisor, guest operating systems and any other related components.\n7. The creation, distribution, storage, use, retirement and destruction of the virtual images and snapshots should be handle in a controlled and secured manner.\n8. The following should be considered as part of virtualization/containerization but not limited to:\n  a. administrative access should be tightly controlled where access via local admin should be restricted;\n  b. management of hypervisors should be restricted to administrators only;\n  c. virtual test environment should be physically and/or logically segregated from the production environment and even should not operate on the same host;\n  d. unnecessary program and services should be disabled on virtual machines unless authorized by the business;\n  e. audit logging should be enabled and monitored for all virtual machines that should include but not limited to:\n    1. creation, deployment and removal;\n    2. root and administrative activities; and\n    3. creation, modification and deletion of system level objects.\n  f. appropriate controls should be in place to protect sensitive and critical data being used and managed through virtual images or snapshots; and\n  g. all virtual drives used by the guest operating systems should be backed-up and tested on regular basis, using the same policy for backup management as is used for non-virtualized systems"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.4",
+        "class": "family",
+        "title": "System Change Management",
+        "parts": [
+          {
+            "id": "3.4_statement",
+            "name": "statement",
+            "prose": "System change management is a process of defining, designing, testing and implementing changes related to information assets including but not limited to application, software, device and data. Thus, risks factors related to system change management should be addressed by the Member Organizations through adequate implementation of required IT controls."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.4.1",
+            "class": "SAMA_ITGF_1.0",
+            "title": "System Change Governance",
+            "parts": [
+              {
+                "id": "3.4.1_statement",
+                "name": "statement",
+                "prose": "A Change Management process should be established to ensure that changes to the Member Organization's information assets are classified, tested and approved before their deployment into production environment"
+              },
+              {
+                "id": "3.4.1_guidance",
+                "name": "guidance",
+                "prose": "1. System change management process should be defined, approved, implemented and communicated within the Member Organizations.\n2. The effectiveness of the system change management process should be measured and periodically evaluated.\n3. System change management process should be governed by the change management policy and procedure that should be approved, monitored, reviewed and updated on periodic basis and/or whenever significant changes occurs in the IT environment or changes in laws and regulatory requirements.\n4. System change management process should address the following, but not limited to:\n  a. change requirement definition and approval;\n  b. change severity and priority;\n  c. change risk and impact assessment;\n  d. change development;\n  e. change testing;\n  f. change roll-out and roll-back;\n  g. change roles and responsibilities;\n  h. change documentation;\n  i. change awareness and/or training for users; and\n  j. change advisory board (CAB) input, if applicable.\n5. A workflow system should be implemented to automate the change management process by the Member Organizations to the maximum extent possible.\n6. Any changes in the information assets should be logged, monitored and documented.\n7. System environments (i.e. development, testing, production, etc.) should be technically and logically segregated.\n8. Access to different system environments should be strictly controlled and monitored. In order to do so, segregation of duties ('SoD') should be ensured so that no individual have two conflicting responsibilities such as (develop, compile, test, migrate and deploy) at the same time.\n9. Emergency changes in the information assets should be performed in a strictly controlled manner and should consider the following:\n  a. the number of emergency changes should be least preferred over planned changes in order to keep such changes as minimum as possible;\n  b. emergency changes should be assessed for their impact on the systems;\n  c. emergency changes should be approved by the Emergency Change Advisory Board ('ECAB');\n  d. minimum level of testing should be acceptable to implement the emergency changes;\n  e. formal documentation of emergency changes should be completed post implementation;\n  f. post implementation review should be conducted for all emergency changes; and\n  g. root cause analysis should be conducted to determine the cause due to which emergency change was required, as well as maintaining a register to reflect lesson learned and report to all concerned staff, management and ITSC.\n10. Sufficient auditing should be enabled to log emergency changes related to information assets for future reference or investigation purposes"
+              }
+            ]
+          },
+          {
+            "id": "3.4.2",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Change Requirement Definition and Approval",
+            "parts": [
+              {
+                "id": "3.4.2_statement",
+                "name": "statement",
+                "prose": "Changes to information assets should be formally defined, documented and approved by relevant asset owner prior to implementing the change in the information assets"
+              },
+              {
+                "id": "3.4.2_guidance",
+                "name": "guidance",
+                "prose": "1. Change requirements should be formally initiated by the requestor of the change.\n2. Change requirements should specify both functional and non-functional requirements, where applicable.\n3. Change requirements should be formally reviewed and approved by the concern asset owner.\n4. Any changes in the information assets should be assessed for their impact on the systems prior to implement the change.\n5. Any change in the information assets should be endorsed by the Change Advisory Board ('CAB') prior deploying to the production environment.\n6. Any changes in the information assets should be reviewed and approved by the cyber security function before submitting to 'CAB' (required as per the SAMA Cyber Security Framework, 3.3.7 Change Management, Control Requirements"
+              }
+            ]
+          },
+          {
+            "id": "3.4.3",
+            "class": "SAMA_ITGF_1.0",
+            "title": "System Acquisition",
+            "parts": [
+              {
+                "id": "3.4.3_statement",
+                "name": "statement",
+                "prose": "System acquisition process should be established to ensure risks associated with the system acquisition and related vendor service level are adequately assessed and mitigated prior acquiring system"
+              },
+              {
+                "id": "3.4.3_guidance",
+                "name": "guidance",
+                "prose": "1. System acquisition process should be defined, approved, implemented and communicated by the Member Organizations.\n2. The effectiveness of the system acquisition process should be measured and periodically evaluated.\n3. System requirements (i.e. functional and non-functional) should be formally defined and approved as part of system acquisition.\n4. A feasibility study should be conducted to assess functional and non-functional requirements of the new system particularly in conformance with the SAMA regulatory requirements, and other applicable regulatory requirements.\n5. Vendor evaluation should be incorporated in the system acquisition process to assess vendor for their offering and capabilities to support system during and post implementation.\n6. The system acquisition should be supported with a detail implementation plan describing the following, but not limited to:\n  a. system implementation milestones (including requirement gathering, development or customization, testing, go-live etc.);\n  b. timeline for each milestone and their dependencies; and\n  c. resources assigned to milestones.\n7. The off-the-shelf system or package should be evaluated based on the following, but not limited to:\n  a. system conformance with the requirements of the Member Organization;\n  b. system creditability and market presence, if required; and vendor evaluation and service level"
+              }
+            ]
+          },
+          {
+            "id": "3.4.4",
+            "class": "SAMA_ITGF_1.0",
+            "title": "System Development",
+            "parts": [
+              {
+                "id": "3.4.4_statement",
+                "name": "statement",
+                "prose": "System development methodology should be documented, approved and implemented to ensure that the development of Member Organization's system is performed in a strictly controlled manner"
+              },
+              {
+                "id": "3.4.4_guidance",
+                "name": "guidance",
+                "prose": "1. The system development methodology should be defined, approved, implemented and communicated.\n2. The effectiveness of the system development methodology should be monitored and periodically evaluated.\n3. The system development methodology should address the following, but not limited to:\n  a. system development approach such as agile, waterfall, etc.;\n  b. secure coding standards;\n  c. testing types and approaches such as unit testing, regression testing, stress testing, etc.;\n  d. version controlling;\n  e. quality control;\n  f. data migration;\n  g. documentation; and\n  h. end user training.\n4. The system design document should be defined, documented and approved.\n5. The system design document should address the low level design requirements for the intended system, which includes but not limited to following:\n  a. configurations requirements;\n  b. integration requirements;\n  c. performance requirements;\n  d. cyber security requirements; and\n  e. Data definition requirements.\n6. Member organizations relevant IT function or development team should conduct secure code review for:\n  a. applications developed internally; and\n  b. externally developed applications if the source code is available.\n7. Member Organizations should ensure that the secure code review report (or equivalent, such as an independent assurance statement) is formulated in case the source code is not available with the member organization.\n8. Cyber security controls should be embedded in the system development process in line with SAMA Cyber Security Framework.\n9. Version control system should be utilized to keep track of source code or build versions between various system environments (i.e. development, test, production, etc.)"
+              }
+            ]
+          },
+          {
+            "id": "3.4.5",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Testing",
+            "parts": [
+              {
+                "id": "3.4.5_statement",
+                "name": "statement",
+                "prose": "All changes to information systems should be comprehensively tested on the test environment based on the defined and approved test cases to ensure that changes meets the business requirements as well as to identify defects or vulnerabilities before releasing changes to the production environment"
+              },
+              {
+                "id": "3.4.5_guidance",
+                "name": "guidance",
+                "prose": "1. Test plan should be formally defined, approved and documented for the changes.\n2. Test case should be defined, approved and documented for the changes. In addition, test case should address the following, but not limited to:\n  a. test case name and unique ID;\n  b. test case designed by and tested by;\n  c. test case description with clear identification of negative and positive test cases;\n  d. test priority;\n  e. date of the test execution;\n  f. data use to test the cases;\n  g. status of the test case (i.e. pass or fail);\n  h. expected outcome of the test case; and\n  i. third party testing certification requirement, if applicable. i.e. MADA, Tanfeeth, etc.\n3. At a minimum, the following types of testing should be considered as part of system change management.\n  a. unit testing;\n  b. system integration testing (SIT);\n  c. stress testing (if applicable);\n  d. security testing; and\n  e. user acceptance testing (UAT).\n4. All changes to information system should be thoroughly tested on a separate test environment in accordance with the approved test cases.\n5. All changes should be formally tested and accepted by the concern business users.\n6. Testing should include positive and negative test cases scenarios.\n7. The results of UAT should be documented and maintained for future reference purposes.\n8. The production data should not be utilized for system testing in the test environment. Only sanitized data should be used for testing purposes"
+              }
+            ]
+          },
+          {
+            "id": "3.4.6",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Change Security Requirement",
+            "parts": [
+              {
+                "id": "3.4.6_statement",
+                "name": "statement",
+                "prose": "Cyber security requirements should be defined and thoroughly tested for all changes in the information system in a testing environment in order to identify and mitigate security vulnerabilities therein prior introducing them into the production environment"
+              },
+              {
+                "id": "3.4.6_guidance",
+                "name": "guidance",
+                "prose": "1. System change management process should consider SAMA Cyber Security Framework for defining, testing and implementing security requirements for any changes in the information assets"
+              }
+            ]
+          },
+          {
+            "id": "3.4.7",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Change Release Management",
+            "parts": [
+              {
+                "id": "3.4.7_statement",
+                "name": "statement",
+                "prose": "Change release management process should be defined to ensure that system changes are adequately planned and released to the production environment in a strictly controlled manner"
+              },
+              {
+                "id": "3.4.7_guidance",
+                "name": "guidance",
+                "prose": "1. The release management process should be defined, approved, implemented and communicated.\n2. The release management process should be monitored and periodically evaluated.\n3. The release management process should address the following, but not limited to:\n  a. change release strategy and approach;\n  b. roles and responsibilities to carry out change releases;\n  c. change release schedule and logistics;\n  d. change roll-out and roll-back procedures; and\n  e. data migration, where applicable.\n4. The changes should be released in the corresponding system in disaster recovery site upon successful implementation of changes in the production environment at main site.\n5. Change should be introduced as part of an agreed change window, exceptions has to have their own approval process and seldom allowed without compelling reasons"
+              }
+            ]
+          },
+          {
+            "id": "3.4.8",
+            "class": "SAMA_ITGF_1.0",
+            "title": "System Configuration Management",
+            "parts": [
+              {
+                "id": "3.4.8_statement",
+                "name": "statement",
+                "prose": "System Configuration Management Process should be defined, approved, communicated and implemented to maintain a reliable and accurate information about configuration items ('Cls') for Member Organization's information assets"
+              },
+              {
+                "id": "3.4.8_guidance",
+                "name": "guidance",
+                "prose": "1. The configuration management process should be defined, approved, implemented and communicated by the Member Organizations.\n2. The configuration management process should be monitored and periodically evaluated.\n3. The configuration management process should address the following, but not limited to:\n  a. roles and responsibilities for carrying out configuration management;\n  b. identification and recording of configuration items and their criticality with respect to its supporting business processes;\n  c. interrelationships between configuration items among various information assets; and\n  d. periodic verification of configuration items.\n4. Member Organizations should implement configuration management database ('CMDB') to identify, maintain, and verify information related to Member Organization's Information assets"
+              }
+            ]
+          },
+          {
+            "id": "3.4.9",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Patch Management",
+            "parts": [
+              {
+                "id": "3.4.9_statement",
+                "name": "statement",
+                "prose": "Patch management process should be defined and implemented to ensure up-to-date with latest applicable and relevant patches (i.e. functional or non-functional) are installed in a timely manner to avoid technical issues including security breaches due to existing vulnerabilities in the system"
+              },
+              {
+                "id": "3.4.9_guidance",
+                "name": "guidance",
+                "prose": "1. The patch management process should be defined, approved, implemented and communicated by the Member Organizations.\n2. The effectiveness of the patch management process should be monitored, measured and periodically evaluated.\n3. All patches should be thoroughly assessed for impact by relevant stakeholders including cyber security before being implemented into the production environment.\n4. All systems should be periodically scanned or inspected to identify any outdated patches and vulnerabilities in the systems.\n5. Deployment of patches should follow a formal change management process.\n6. All patches should be thoroughly tested in a separate test environment prior introducing to the production environment to avoid any compatibility issue with the system and related components.\n7. Patches should be rolled out to systems and related components systematically.\n8. Following deployment of patches to the production environment, systems should be monitored for any abnormal behavior and, if such behavior identified should be thoroughly investigated to identify the root cause and fix them properly.\n9. Patch deployment window (i.e. schedule) should be communicated to business and relevant stakeholders in advance and preferable should be done during non-peak hours and non-freezing periods to avoid any business disruption.\n10. The external feeds from software vendors or other acknowledged sources should be monitored to identify any new vulnerabilities in the system and to be patched accordingly"
+              }
+            ]
+          },
+          {
+            "id": "3.4.10",
+            "class": "SAMA_ITGF_1.0",
+            "title": "IT Project Management",
+            "parts": [
+              {
+                "id": "3.4.10_statement",
+                "name": "statement",
+                "prose": "Formal process should be defined, approved and implemented to effectively manage IT project and related risks throughout the lifecycle of the project"
+              },
+              {
+                "id": "3.4.10_guidance",
+                "name": "guidance",
+                "prose": "1. The IT project management process should be defined and approved by the Member Organizations.\n2. The IT project management process should be governed with a formally defined and approved IT project management framework, policy and procedure to manage IT project lifecycle from initiation till closure.\n3. The effectiveness of the IT project management process should be monitored, measured and periodically evaluated.\n4. All IT projects should be provided with detail project plan, which include the following, but not limited to:\n  a. detail scope of work including activities for a project or each phase of the project;\n  b. priorities, milestones and timelines associated with project or each phase of the project;\n  c. deliverables;\n  d. roles and responsibilities; and\n  e. risks associated with any IT projects.\n5. Necessary documentations for the IT project should be defined, approved and maintained for future reference purposes including but not limited to following:\n  a. project charter;\n  b. requirement analysis, business information flow and technical information flow;\n  c. feasibility as well as cost-benefit analysis; and\n  d. detail project plan.\n6. IT project steering committee should be established having representation from relevant business and technical teams to oversee plan, progress and risks associated with the IT projects.\n7. All IT projects should be assessed for the risks that could impact the scope, timeline and quality of the projects. Any identified risks should be mitigated and monitored throughout the project lifecycle.\n8. Any significant risks associated with the IT project should be reported to IT project steering committee and to senior management or board of directors of the member organization in a timely manner.\n9. All project deliverables should be reviewed by an independent quality assurance function or an independent person provided with such responsibly prior commencing project to the production environment.\n10. Post-implementation reviews should be planned and executed to determine whether IT projects delivered the expected benefits, met business/user requirements, and complied with the IT project management framework.\n11. The Member Organizations should inform 'General Department of Cyber Risk Control' for any major IT transformation projects, such as core system implementation, after the approval from the senior management.\n12. Cyber security should be involved during various phases of the IT project management lifecycle in line to the control considerations provided in the SAMA Cyber Security Framework"
+              }
+            ]
+          },
+          {
+            "id": "3.4.11",
+            "class": "SAMA_ITGF_1.0",
+            "title": "Quality Assurance ",
+            "parts": [
+              {
+                "id": "3.4.11_statement",
+                "name": "statement",
+                "prose": "The quality assurance process should be defined, approved, communicated and implemented to independently ascertain quality of the changes or development in the information assets in line with the business/user requirements prior moving them to the production environment"
+              },
+              {
+                "id": "3.4.11_guidance",
+                "name": "guidance",
+                "prose": "1. The quality assurance process should be defined, approved, implemented and communicated by the Member Organizations.\n2. The quality assurance process should be monitored and periodically evaluated.\n3. The quality assurance process should address the following, but not limited to:\n  a. clear roles and responsibilities for personnel carrying out quality assurance activities;\n  b. minimum quality requirements sets by the Member Organizations including business and any other applicable regulatory requirements; and\n  c. process for identification, maintenance and retirement of quality related records.\n4. The quality assurance function/department should have independent existence and reporting with authority to provide objective evaluation.\n5. All changes or development to information system should be assessed by the quality assurance team prior releasing to the production environment.\n6. The quality assurance function should report the reviewed results to the relevant stakeholder(s) within the Member Organizations and initiate improvements where appropriate"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

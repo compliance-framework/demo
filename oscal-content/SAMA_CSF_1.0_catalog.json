@@ -1,0 +1,898 @@
+{
+  "catalog": {
+    "uuid": "3aa9cff9-e3eb-4caa-a8d9-0e3fe9631fae",
+    "metadata": {
+      "title": "Electronic Version of SAMA Cyber Security Framework Controls and Assessment Procedures",
+      "last-modified": "2025-04-02T07:26:00.000000-00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.1.3",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Document creator"
+        },
+        {
+          "id": "contact",
+          "title": "Contact"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "41a93829-b76b-43ec-b9e7-250553511549",
+          "type": "organization",
+          "name": "Saudi Arabian Monetary Authority"
+        },
+        {
+          "uuid": "dbe8b210-df46-49a4-b760-c1c306df7955",
+          "type": "organization",
+          "name": "Container Solutions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "41a93829-b76b-43ec-b9e7-250553511549",
+            "dbe8b210-df46-49a4-b760-c1c306df7955"
+          ]
+        },
+        {
+          "role-id": "contact",
+          "party-uuids": [
+            "41a93829-b76b-43ec-b9e7-250553511549"
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "3.1",
+        "class": "family",
+        "title": "Cyber Security Leadership and Governance",
+        "parts": [
+          {
+            "id": "3.1_statement",
+            "name": "statement",
+            "prose": "The ultimate responsibility for cyber security rests with the board of the Member Organization. The board  of the Member Organization can delegate its cyber security responsibilities to a cyber security committee  (or a senior manager from a control function). The cyber security committee could be responsible for  defining the cyber security governance and setting the Member Organization's cyber security strategy.  The cyber security committee can also be responsible for defining a cyber security policy and ensuring the  operational effectiveness of this cyber security policy.\n\nTo develop and maintain the cyber security policy and to execute the cyber security activities across the  Member Organization, an independent cyber security function should be established."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.1.1",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Governance ",
+            "parts": [
+              {
+                "id": "3.1.1_statement",
+                "name": "statement",
+                "prose": "A cyber security governance structure should be defined and implemented, and should be endorsed by  the board. "
+              },
+              {
+                "id": "3.1.1_objective",
+                "name": "assessment-objective",
+                "prose": "To direct and control the overall approach to cyber security within the Member Organization. "
+              },
+              {
+                "id": "3.1.1_guidance",
+                "name": "guidance",
+                "prose": "1. A cyber security committee should be established and be mandated by the board. \n2. The cyber security committee should be headed by an independent senior manager from a control  function. \n3. The following positions should be represented in the cyber security committee: \n  a. senior managers from all relevant departments (e.g., COO, CIO, compliance officer, heads of  relevant business departments); \n  b. Chief information security officer (CISO); \n  c. Internal audit may attend as an “observer. \n4. A cyber security committee charter should be developed, approved and reflect: \n  a. committee objectives; \n  b. roles and responsibilities; \n  c. minimum number of meeting participants; \n  d. meeting frequency (minimum on quarterly basis). \n5. A cyber security function should be established. \n6. The cyber security function should be independent from the information technology function. To  avoid any conflict of interest, the cyber security function and information technology function should  have separate reporting lines, budgets and staff evaluations. \n7. The cyber security function should report directly to the CEO/managing director of the Member  Organization or general manager of a control function. \n8. A full-time senior manager for the cyber security function, referred to as CISO, should be appointed  at senior management level. \n9. The Member Organization should : \n  a. ensure the CISO has a Saudi nationality; \n  b. ensure the CISO is sufficiently qualified;\n  c. obtain no objection from SAMA to assign the CISO. \n10. The board of the Member Organization should allocate sufficient budget to execute the required  cyber security activities. "
+              }
+            ]
+          },
+          {
+            "id": "3.1.2",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Strategy ",
+            "parts": [
+              {
+                "id": "3.1.2_statement",
+                "name": "statement",
+                "prose": "A cyber security strategy should be defined and aligned with the Member Organization's strategic  objectives, as well as with the Banking Sector's cyber security strategy. "
+              },
+              {
+                "id": "3.1.2_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that cyber security initiatives and projects within the Member Organization contribute to the  Member Organization's strategic objectives and are aligned with the Banking Sector's cyber security strategy. "
+              },
+              {
+                "id": "3.1.2_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security strategy should be defined, approved, maintained and executed. \n2. The cyber security strategy should be aligned with: \n  a. the Member Organization's overall objectives; \n  b. the legal and regulatory compliance requirements of the Member Organization; \n  c. the Banking Sector's cyber security strategy. \n3. The cyber security strategy should address: \n  a. the importance and benefits of cyber security for the Member Organization; \n  b. the anticipated future state of cyber security for the Member Organization to become and remain  resilient to (emerging) cyber security threats; \n  c. which and when cyber security initiatives and projects should be executed to achieve the  anticipated future state. "
+              }
+            ]
+          },
+          {
+            "id": "3.1.3",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Policy ",
+            "parts": [
+              {
+                "id": "3.1.3_statement",
+                "name": "statement",
+                "prose": "A cyber security policy should be defined, approved and communicated. "
+              },
+              {
+                "id": "3.1.3_objective",
+                "name": "assessment-objective",
+                "prose": "To document the Member Organization's commitment and objectives of cyber security, and to  communicate this to the relevant stakeholders.  "
+              },
+              {
+                "id": "3.1.3_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security policy should be defined, approved and communicated. \n2. The cyber security policy should be reviewed periodically according to a predefined and structured  review process. \n3. The cyber security policy should be: \n  a. considered as input for other corporate policies of the Member Organization (e.g., HR policy,  finance policy and IT policy); \n  b. supported by detailed security standards (e.g., password standard, firewall standard) and  procedures; \n  c. based on best practices and (inter)national standards; \n  d. communicated to relevant stakeholders. \n4. The cyber security policy should include:  \n  a. a definition of cyber security; \n  b. the Member Organization's overall cyber security objectives and scope; \n  c. a statement of the board's intent, supporting the cyber security objectives; \n  d. a definition of general and specific responsibilities for cyber security; \n  e. the reference to supporting cyber security standards and procedures; \n  f. cyber security requirements that ensure: \n    1. information is classified in a way that indicates its importance to the Member Organization; \n    2. information is protected in terms of cyber security requirements, in line with the risk appetite; \n    3. owners are appointed for all information assets; \n    4. cyber security risk assessments are conducted for information assets; \n    5. relevant stakeholders are made aware of cyber security and their expected behavior (cyber  security awareness program); \n    6. compliance with regulatory and contractual obligations are being met; \n    7. cyber security breaches and suspected cyber security weaknesses are reported; \n    8. cyber security is reflected in business continuity management. "
+              }
+            ]
+          },
+          {
+            "id": "3.1.4",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Roles and Responsibilities ",
+            "parts": [
+              {
+                "id": "3.1.4_statement",
+                "name": "statement",
+                "prose": "Responsibilities to implement, maintain, support and promote cyber security should be defined  throughout the Member Organization. Additionally, all parties involved in cyber security should  understand and take their role and responsibilities. "
+              },
+              {
+                "id": "3.1.4_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that relevant stakeholders are aware of the responsibilities with regard to cyber security and  apply cyber security controls throughout the Member Organization. "
+              },
+              {
+                "id": "3.1.4_guidance",
+                "name": "guidance",
+                "prose": "1. The Board of Directors has the ultimate responsibility for cyber security, including: a. ensuring that sufficient budget for cyber security is allocated; \n  b. approving the cyber security committee charter; \n  c. endorsing (after being approved by the cyber security committee): \n    1. the cyber security governance; \n    2. the cyber security strategy; \n    3. the cyber security policy. \n2. The cyber security committee should be responsible for: \n  a. monitoring, reviewing and communicating the Member Organization's cyber security risk appetite  periodically or upon a material change in the risk appetite; \n  b. reviewing the cyber security strategy to ensure that it supports the Member Organization  objectives; \n  c. approving, communicating, supporting and monitoring:  \n    1. the cyber security governance; \n    2. the cyber security strategy; \n    3. the cyber security policy; \n    4. cyber security programs (e.g., awareness program, data classification program, data privacy,  data leakage prevention, key cyber security improvements);\n    5. cyber security risk management process; \n    6. the key risk indicators (KRIs) and key performance indicators (KPIs) for cyber security. \n3. The senior management should be responsible for: \n  a. ensuring that standards, processes and procedures reflect security requirements (if applicable); \n  b. ensuring that individuals accept and comply with the cyber security policy, supporting standards  and procedures when they are issued and updated; \n  c. ensuring that cyber security responsibilities are incorporated in the job descriptions of key  positions and cyber security staff. \n4. The CISO should be responsible for: \n  a. developing and maintaining: \n    1. cyber security strategy; \n    2. cyber security policy; \n    3. cyber security architecture; \n    4. cyber security risk management process; \n  b. ensuring that detailed security standards and procedures are established, approved and  implemented; \n  c. delivering risk-based cyber security solutions that address people, process and technology; \n  d. developing the cyber security staff to deliver cyber security solutions in a business context; \n  e. the cyber security activities across the Member Organization, including: \n    1. monitoring of the cyber security activities (SOC monitoring); \n    2. monitoring of compliance with cyber security regulations, policies, standards and procedures; \n    3. overseeing the investigation of cyber security incidents;  \n    4. gathering and analyzing threat intelligence from internal and external sources; \n    5. performing cyber security reviews; \n  f. conducting cyber security risk assessments on the Members Organization's information assets; \n  g. proactively supporting other functions on cyber security, including: \n    1. performing information and system classifications; \n    2. determining cyber security requirements for important projects; \n    3. performing cyber security reviews. \n  h. defining and conducting the cyber security awareness programs; \n  i. measuring and reporting the KRIs and KPIs on: \n    1. cyber security strategy; \n    2. cyber security policy compliance; \n    3. cyber security standards and procedures; \n    4. cyber security programs (e.g., awareness program, data classification program, key cyber  security improvements). \n5. The internal audit function should be responsible for: \n  a. performing cyber security audits. \n6. All Member Organization's staff should be responsible for: \n  a. complying with cyber security policy, standards and procedures."
+              }
+            ]
+          },
+          {
+            "id": "3.1.5",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security in Project Management ",
+            "parts": [
+              {
+                "id": "3.1.5_statement",
+                "name": "statement",
+                "prose": "Cyber security should be addressed in project management and project governance. "
+              },
+              {
+                "id": "3.1.5_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the all the Member Organization's projects meet cyber security requirements. "
+              },
+              {
+                "id": "3.1.5_guidance",
+                "name": "guidance",
+                "prose": "1. Cyber security should be integrated into the Member Organization's project management  methodology to ensure that cyber security risks are identified and addressed as part of a project.  \n2. The Member Organization's project management methodology should ensure that: \n  a. cyber security objectives are included in project objectives; \n  b. the cyber security function is part of all phases of the project; \n  c. a risk assessment is performed at the start of the project to determine the cyber security risks and  to ensure that cyber security requirements are addressed either by the existing cyber security controls (based on cyber security standards) or to be developed; \n  d. cyber security risks are registered in the project-risk register and tracked; \n  e. responsibilities for cyber security are defined and allocated; \n  f. a cyber security review is performed by an independent internal or external party. "
+              }
+            ]
+          },
+          {
+            "id": "3.1.6",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Awareness ",
+            "parts": [
+              {
+                "id": "3.1.6_statement",
+                "name": "statement",
+                "prose": "A cyber security awareness program should be defined and conducted for staff, third parties and  customers of the Member Organization. "
+              },
+              {
+                "id": "3.1.6_objective",
+                "name": "assessment-objective",
+                "prose": "To create a cyber security risk-aware culture where the Member Organization's staff, third parties and  customers make effective risk-based decisions which protect the Member Organization's information. "
+              },
+              {
+                "id": "3.1.6_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security awareness programs should be defined, approved and conducted to promote cyber  security awareness and to create a positive cyber security culture.  \n2. A cyber security awareness program should be defined and conducted for: \n  a. staff of the Member Organization; \n  b. third parties of the Member Organization; \n  c. customers of the Member Organization. \n3. The cyber security awareness program should target cyber security behaviors by tailoring the program  to address the different target groups through multiple channels. \n4. The activities of the cyber security awareness program should be conducted periodically and  throughout the year. \n5. The cyber security awareness program should at a minimum include: \n  a. an explanation of cyber security measures provided; \n  b. the roles and responsibilities regarding cyber security; \n  c. information on relevant emerging cyber security events and cyber threats (e.g., spear-phishing,  whaling). \n6. The cyber security awareness program should be evaluated to: \n  a. measure the effectiveness of the awareness activities; \n  b. formulate recommendations to improve the cyber security awareness program. \n7. Customer awareness should address for both retail and commercial customers and, at a minimum,  include a listing of suggested cyber security mechanisms which customers may consider implementing  to mitigate their own risk(s).  "
+              }
+            ]
+          },
+          {
+            "id": "3.1.7",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Training ",
+            "parts": [
+              {
+                "id": "3.1.7_statement",
+                "name": "statement",
+                "prose": "Staff of the Member Organization should be provided with training regarding how to operate the Member  Organization's systems securely and to address and apply cyber security controls. "
+              },
+              {
+                "id": "3.1.7_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that staff of the Member Organization are equipped with the skills and required knowledge to  protect the Member Organization's information assets and to fulfil their cyber security responsibilities. "
+              },
+              {
+                "id": "3.1.7_guidance",
+                "name": "guidance",
+                "prose": "1. Specialist or security-related skills training should be provided to staff in the Member Organization's  relevant functional area categories in line with their job descriptions, including: \n  a. key roles within the organization; \n  b. staff of the cyber security function; \n  c. staff involved in developing and (technically) maintaining information assets; \n  d. staff involved in risk assessments. \n2. Education should be provided in order to equip staff with the skills and required knowledge to  securely operate the Member Organization's information assets."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.2",
+        "class": "family",
+        "title": "Cyber Security Risk Management and Compliance",
+        "parts": [
+          {
+            "id": "3.2_statement",
+            "name": "statement",
+            "prose": "Risk management is the ongoing process of identifying, analyzing, responding and monitoring and reviewing risks. The cyber security risk management process focusses specifically on managing risks related to cyber security. In order to manage cyber security risks, Member Organizations should: \n* identify their cyber security risks – cyber security risk identification; \n* determine the likelihood that cyber security risks will occur and the resulting impact – cyber security  risk analysis; \n* determine the appropriate response to cyber security risks and select relevant controls – cyber  security risk response; \n* monitor the cyber security risk treatment and review control effectiveness – cyber security risk  monitoring and review. \n\nThe compliance with the cyber security controls should be subject to periodic review and audit."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.2.1",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Risk Management ",
+            "parts": [
+              {
+                "id": "3.2.1_statement",
+                "name": "statement",
+                "prose": "A cyber security risk management process should be defined, approved and implemented, and should be  aligned with the Member Organization's enterprise risk management process. "
+              },
+              {
+                "id": "3.2.1_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure cyber security risks are properly managed to protect the confidentiality, integrity and  availability of the Member Organization's information assets, and to ensure the cyber security risk  management process is aligned with the Member Organization's enterprise risk management process. "
+              },
+              {
+                "id": "3.2.1_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security risk management process should be defined, approved and implemented. \n2. The cyber security risk management process should focus on safeguarding the confidentiality,  integrity and availability of information assets. \n3. The cyber security risk management process should be aligned with the existing enterprise risk  management process. \n4. The cyber security risk management process should be documented and address: \n  a. risk identification; \n  b. risk analysis; \n  c. risk response; \n  d. risk monitoring and review. \n5. The cyber security risk management process should address the Member Organization's information  assets, including (but not limited to): \n  a. business processes; \n  b. business applications; \n  c. infrastructure components. \n6. The cyber security risk management process should be initiated: \n  a. at an early stage of the project; \n  b. prior to critical change; \n  c. when outsourcing is being considered; \n  d. when launching new products and technologies.\n7. Existing information assets should be periodically subject to cyber security risk assessment based on  their classification or risk profile. \n8. The cyber security risk management activities should involve: \n  a. business owners; \n  b. IT specialists; \n  c. cyber security specialists; \n  d. key user representatives. \n9. The result of the risk assessment should be reported to the relevant business owner (i.e., risk owner)  within the Member Organization; \n10. The relevant business owner (i.e., risk owner) within the Member Organization should accept and  endorse the risk assessment results. \n11. The Member Organization's cyber security risk appetite and risk tolerance should be clearly defined  and formally approved. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.1.1",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Risk Identification ",
+            "parts": [
+              {
+                "id": "3.2.1.1_statement",
+                "name": "statement",
+                "prose": "Cyber security risk identification should be performed and should include the Member Organization's  relevant assets, threats, existing controls and vulnerabilities. "
+              },
+              {
+                "id": "3.2.1.1_objective",
+                "name": "assessment-objective",
+                "prose": "To find, recognize and describe the Member Organization's cyber security risks. "
+              },
+              {
+                "id": "3.2.1.1_guidance",
+                "name": "guidance",
+                "prose": "1. Cyber security risk identification should be performed. \n2. Identified cyber security risks should be documented (in a central register). \n3. Cyber security risk identification should address relevant information assets, threats, vulnerabilities  and the key existing cyber security controls. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.1.2",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Risk Analysis ",
+            "parts": [
+              {
+                "id": "3.2.1.2_statement",
+                "name": "statement",
+                "prose": "A cyber security risk analysis should be conducted based on the likelihood that the identified cyber  security risks will occur and their resulting impact. "
+              },
+              {
+                "id": "3.2.1.2_objective",
+                "name": "assessment-objective",
+                "prose": "To analyze and determine the nature and the level of the identified cyber security risks. "
+              },
+              {
+                "id": "3.2.1.2_guidance",
+                "name": "guidance",
+                "prose": "1. A cyber security risk analysis should be performed. \n2. The cyber security risk analysis should address the level of potential business impact and likelihood of  cyber security threat events materializing. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.1.3",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Risk Response ",
+            "parts": [
+              {
+                "id": "3.2.1.3_statement",
+                "name": "statement",
+                "prose": "The cyber security risks of a Member Organization should be treated. "
+              },
+              {
+                "id": "3.2.1.3_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure cyber security risks are treated (i.e., accepted, avoided, transferred or mitigated)."
+              },
+              {
+                "id": "3.2.1.3_guidance",
+                "name": "guidance",
+                "prose": "1. The relevant determined cyber security risks should be treated according to the Member  Organization's risk appetite and cyber security requirements. \n2. Cyber security risk response should ensure that the list of risk treatment options are documented (i.e.,  accepting, avoiding, transferring or mitigating risks by applying cyber security controls). \n3. Accepting cyber security risks should include: \n  a. the consideration of predefined limits for levels of cyber security risk; \n  b. the approval and sign-off by the business owner, ensuring that: \n    1. the accepted cyber security risk is within the risk appetite and is reported to the cyber security committee; \n    2. the accepted cyber security risk does not contradict SAMA regulations. \n4. Avoiding cyber security risks should involve a decision by a business owner to cancel or postpone a  particular activity or project that introduces an unacceptable cyber security risk. \n5. Transferring or sharing the cyber security risks should: \n  a. involve sharing the cyber security risks with relevant (internal or external) providers; \n  b. be accepted by the receiving (internal or external) provider(s); \n  c. eventually lead to the actual transferring or sharing of the cyber security risk. \n6. Applying cyber security controls to mitigate cyber security risks should include: \n  a. identifying appropriate cyber security controls; \n  b. evaluating the strengths and weaknesses of the cyber security controls; \n    1. assessing the cost of implementing the cyber security controls; \n    2. assessing the feasibility of implementing the cyber security controls; \n    3. reviewing relevant compliance requirements for the cyber security controls; \n  c. selecting cyber security controls; \n  d. identifying, documenting and obtaining sign-off for any residual risk by the business owner. \n7. Cyber security risk treatment actions should be documented in a risk treatment plan. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.1.4",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Risk Monitoring and Review ",
+            "parts": [
+              {
+                "id": "3.2.1.4_statement",
+                "name": "statement",
+                "prose": "The progress cyber security risk treatment should be monitored and the effectiveness of revised or newly  implemented cyber security controls should be reviewed. "
+              },
+              {
+                "id": "3.2.1.4_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the cyber security risk treatment is performed according to the treatment plans. To ensure  that the revised or newly implemented cyber security controls are effective. "
+              },
+              {
+                "id": "3.2.1.4_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security treatment should be monitored, including: \n  a. tracking progress in accordance to treatment plan; \n  b. the selected and agreed cyber security controls are being implemented. \n2. The design and effectiveness of the revised or newly implemented cyber security controls should be  reviewed."
+              }
+            ]
+          },
+          {
+            "id": "3.2.2",
+            "class": "SAMA_CSF_1.0",
+            "title": "Regulatory Compliance ",
+            "parts": [
+              {
+                "id": "3.2.2_statement",
+                "name": "statement",
+                "prose": "A process should be established by the Member Organization to identify, communicate and comply with  the cyber security implications of relevant regulations.  "
+              },
+              {
+                "id": "3.2.2_objective",
+                "name": "assessment-objective",
+                "prose": "To comply with regulations affecting cyber security of the Member Organization. "
+              },
+              {
+                "id": "3.2.2_guidance",
+                "name": "guidance",
+                "prose": "1. A process should be established for ensuring compliance with relevant regulatory requirements  affecting cyber security across the Member Organization. The process of ensuring compliance should: \n  a. be performed periodically or when new regulatory requirements become effective; \n  b. involve representatives from key areas of the Member Organization; \n  c. result in the update of cyber security policy, standards and procedures to accommodate any  necessary changes (if applicable). "
+              }
+            ]
+          },
+          {
+            "id": "3.2.3",
+            "class": "SAMA_CSF_1.0",
+            "title": "Compliance with (inter)national industry standards ",
+            "parts": [
+              {
+                "id": "3.2.3_statement",
+                "name": "statement",
+                "prose": "The Member Organization should comply with mandatory (inter)national industry standards.  "
+              },
+              {
+                "id": "3.2.3_objective",
+                "name": "assessment-objective",
+                "prose": "To comply with mandatory (inter)national industry standards. "
+              },
+              {
+                "id": "3.2.3_guidance",
+                "name": "guidance",
+                "prose": "1. The Member Organization should comply with: \n  a. Payment Card Industry Data Security Standard (PCI-DSS); \n  b. EMV (Europay, MasterCard and Visa) technical standard; \n  c. SWIFT Customer Security Controls Framework – March 2017. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.4",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Review ",
+            "parts": [
+              {
+                "id": "3.2.4_statement",
+                "name": "statement",
+                "prose": "The cyber security status of the Member Organization's information assets should be subject to periodic  cyber security review.  "
+              },
+              {
+                "id": "3.2.4_objective",
+                "name": "assessment-objective",
+                "prose": "To ascertain whether the cyber security controls are securely designed and implemented, and the  effectiveness of these controls is being monitored.  "
+              },
+              {
+                "id": "3.2.4_guidance",
+                "name": "guidance",
+                "prose": "1. Cyber security reviews should be periodically performed for critical information assets. \n2. Customer and internet facing services should be subject to annual review and penetration tests. \n3. Details of cyber security review performed should be recorded, including the results of review, issues  identified and recommended actions. \n4. The results of cyber security review should be reported to business owner. \n5. Cyber security review should be subject to follow-up reviews to check that: \n  a. all identified issues have been addressed; \n  b. critical risks have been treated effectively;  \n  c. all agreed actions are being managed on an ongoing basis. "
+              }
+            ]
+          },
+          {
+            "id": "3.2.5",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Audits ",
+            "parts": [
+              {
+                "id": "3.2.5_statement",
+                "name": "statement",
+                "prose": "The cyber security status of the Member Organization's information assets should be subject to thorough,  independent and regular cyber security audits performed in accordance with generally accepted auditing standards and SAMA cyber security framework.  "
+              },
+              {
+                "id": "3.2.5_objective",
+                "name": "assessment-objective",
+                "prose": "To ascertain with reasonable assurance whether the cyber security controls are securely designed and implemented, and whether the effectiveness of these controls is being monitored. "
+              },
+              {
+                "id": "3.2.5_guidance",
+                "name": "guidance",
+                "prose": "1. Cyber security audits should be performed independently and according to generally accepted  auditing standards and SAMA cyber security framework. \n2. Cyber security audits should be performed according to the Member Organization's audit manual and  audit plan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.3",
+        "class": "family",
+        "title": "Cyber Security Operations and Technology",
+        "parts": [
+          {
+            "id": "3.3_statement",
+            "name": "statement",
+            "prose": "In order to safeguard the protection of the operations and technology of the Member Organization's  information assets and its staff, third parties and customers, the Member Organizations have to ensure  that security requirements for their information assets and the supporting processes are defined,  approved and implemented. \n\nThe compliance with these cyber security requirements should be monitored and the effectiveness of the  cyber security controls should be periodically measured and evaluated in order to identify potential  revisions of the controls or measurements."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.3.1",
+            "class": "SAMA_CSF_1.0",
+            "title": "Human Resources ",
+            "parts": [
+              {
+                "id": "3.3.1_statement",
+                "name": "statement",
+                "prose": "The Member Organization should incorporate cyber security requirements into human resources  processes. "
+              },
+              {
+                "id": "3.3.1_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that Member Organization staff's cyber security responsibilities are embedded in staff  agreements and staff are being screened before and during their employment lifecycle.  "
+              },
+              {
+                "id": "3.3.1_guidance",
+                "name": "guidance",
+                "prose": "1. The human resources process should define, approve and implement cyber security requirements.  \n2. The effectiveness of the human resources process should be monitored, measured and periodically  evaluated. \n3. The human resource process should include: \n  a. cyber security responsibilities and non-disclosure clauses within staff agreements (during and  after the employment); \n  b. staff should receive cyber security awareness at the start and during their employment; \n  c. when disciplinary actions will be applicable; \n  d. screening and background check;  \n  e. post-employment cyber security activities, such as: \n    1. revoking access rights; \n    2. returning information assets assigned (e.g., access badge, tokens, mobile devices, all electronic  and physical information). "
+              }
+            ]
+          },
+          {
+            "id": "3.3.2",
+            "class": "SAMA_CSF_1.0",
+            "title": "Physical Security ",
+            "parts": [
+              {
+                "id": "3.3.2_statement",
+                "name": "statement",
+                "prose": "The Member Organization should ensure all facilities which host information assets are physically  protected against intentional and unintentional security events. "
+              },
+              {
+                "id": "3.3.2_objective",
+                "name": "assessment-objective",
+                "prose": "To prevent unauthorized physical access to the Member Organization information assets and to ensure  its protection. "
+              },
+              {
+                "id": "3.3.2_guidance",
+                "name": "guidance",
+                "prose": "1. The physical security process should be defined, approved and implemented.\n2. The effectiveness of the physical security process should be monitored, measured and periodically  evaluated. \n3. The physical security process should include (but not limited to): \n  a. physical entry controls (including visitor security); \n  b. monitoring and surveillance (e.g., CCTV, ATMs GPS tracking, sensitivity sensors); \n  c. protection of data centers and data rooms; \n  d. environmental protection; \n  e. protection of information assets during lifecycle (including transport and secure disposal, avoiding  unauthorized access and (un)intended data leakage. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.3",
+            "class": "SAMA_CSF_1.0",
+            "title": "Asset Management ",
+            "parts": [
+              {
+                "id": "3.3.3_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve, implement, communicate and monitor an asset  management process, which supports an accurate, up-to-date and unified asset register.  "
+              },
+              {
+                "id": "3.3.3_objective",
+                "name": "assessment-objective",
+                "prose": "To support the Member Organization in having an accurate and up-to-date inventory and central insight  in the physical / logical location and relevant details of all available information assets, in order to support  its processes, such as financial, procurement, IT and cyber security processes. "
+              },
+              {
+                "id": "3.3.3_guidance",
+                "name": "guidance",
+                "prose": "1. The asset management process should be defined, approved and implemented. \n2. The effectiveness of the asset management process should be monitored, measured and periodically  evaluated. \n3. The asset management process should include: \n  a. a unified register; \n  b. ownership and custodianship of information assets; \n  c. the reference to relevant other processes, depending on asset management; \n  d. information asset classification, labeling and handling; \n  e. the discovery of new information assets. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.4",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Architecture ",
+            "parts": [
+              {
+                "id": "3.3.4_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, follow and review the cybersecurity architecture, which outlines  the cyber security requirements in the enterprise architecture and addresses the design principles for  developing cyber security capabilities. "
+              },
+              {
+                "id": "3.3.4_objective",
+                "name": "assessment-objective",
+                "prose": "To support the Member Organization in achieving a strategic, consistent, cost effective and end-to-end  cyber security architecture. "
+              },
+              {
+                "id": "3.3.4_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security architecture should be defined, approved and implemented. \n2. The compliance with the cyber security architecture should be monitored. \n3. The cyber security architecture should include: \n  a. a strategic outline of cyber security capabilities and controls based on the business requirements;\n  b. approval of the defined cyber security architecture; \n  c. the requirement of having qualified cyber security architects; \n  d. design principles for developing cyber security controls and applying cyber security requirements  (i.e., the security-by-design principle); \n  e. periodic review of the cyber security architecture. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.5",
+            "class": "SAMA_CSF_1.0",
+            "title": "Identity and Access Management ",
+            "parts": [
+              {
+                "id": "3.3.5_statement",
+                "name": "statement",
+                "prose": "The Member Organization should restrict access to its information assets in line with their business requirements based on the need-to-have or need-to-know principles. "
+              },
+              {
+                "id": "3.3.5_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the Member Organization only provides authorized and sufficient access privileges to  approved users.  "
+              },
+              {
+                "id": "3.3.5_guidance",
+                "name": "guidance",
+                "prose": "1. The identity and access management policy, including the responsibilities and accountabilities, should  be defined, approved and implemented.  \n2. The compliance with the identity and access policy should be monitored. \n3. The effectiveness of the cyber security controls within the identity and access management policy should be measured and periodically evaluated. \n4. The identity and access management policy should include: \n  a. business requirements for access control (i.e., need-to-have and need-to-know); \n  b. user access management (e.g., joiners, movers, leavers): \n    1. all identified user types should be covered (i.e., internal staff, third parties); \n    2. changes of job status or job positions for internal staff (e.g. joiner, mover and leaver) should  be instigated by the human resources department; \n    3. changes for external staff or third parties should be instigated by the appointed accountable party; \n    4. user access requests are formally approved in accordance with business and compliance  requirements (i.e., need-to-have and need-to-know to avoid unauthorized access and  (un)intended data leakage)); \n    5. changes in access rights should be processed in a timely manner; \n    6. periodically user access rights and profiles should be reviewed; \n    7. an audit trail of submitted, approved and processed user access requests and revocation  requests should be established; \n  c. user access management should be supported by automation; \n  d. centralization of the identity and access management function; \n  e. multi-factor authentication for sensitive and critical systems and profiles; \n  f. privileged and remote access management, which should address: \n    1. the allocation and restricted use of privileged and remote access, specifying: \n      a. multi-factor authentication should be used for all remote access; \n      b. multi-factor authentication should be used for privilege access on critical systems based  on a risk assessment; \n    2. the periodic review of users with privileged and remote accounts; \n    3. individual accountability;\n    4. the use of non-personal privileged accounts, including: \n      a. limitation and monitoring; \n      b. confidentiality of passwords; \n      c. changing passwords frequently and at the end of each session. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.6",
+            "class": "SAMA_CSF_1.0",
+            "title": "Application Security ",
+            "parts": [
+              {
+                "id": "3.3.6_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement cyber security standards for application  systems. The compliance with these standards should be monitored and the effectiveness of these  controls should be measured and periodically evaluated. "
+              },
+              {
+                "id": "3.3.6_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that sufficient cyber security controls are formally documented and implemented for all  applications, and that the compliance is monitored and its effectiveness is evaluated periodically within  the Member Organization. "
+              },
+              {
+                "id": "3.3.6_guidance",
+                "name": "guidance",
+                "prose": "1. The application cyber security standards should be defined, approved and implemented.  \n2. The compliance with the application security standards should be monitored. \n3. The effectiveness of the application cyber security controls should be measured and periodically  evaluated. \n4. Application development should follow the approved secure system development life cycle  methodology (SDLC). \n5. The application security standard should include: \n  a. secure coding standards; \n  b. the cyber security controls implemented (e.g., configuration parameters, events to monitor and  retain [including system access and data], identity and access management); \n  c. the segregation of duties within the application (supported with a documented authorization  matrix); \n  d. the protection of data aligned with the (agreed) classification scheme (including privacy of  customer data and, avoiding unauthorized access and (un)intended data leakage); \n  e. vulnerability and patch management;  \n  f. back-up and recovery procedures; \n  g. periodic cyber security compliance review. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.7",
+            "class": "SAMA_CSF_1.0",
+            "title": "Change Management ",
+            "parts": [
+              {
+                "id": "3.3.7_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement a change management process that  controls all changes to information assets. The compliance with the process should be monitored and the  effectiveness should be measured and periodically evaluated. "
+              },
+              {
+                "id": "3.3.7_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that all change in the information assets within the Member Organization follow a strict change  control process."
+              },
+              {
+                "id": "3.3.7_guidance",
+                "name": "guidance",
+                "prose": "1. The change management process should be defined, approved and implemented. \n2. The compliance with the change management process should be monitored. \n3. The effectiveness of the cyber security controls within the change management process should be  measured and periodically evaluated. \n4. The change management process should include: \n  a. cyber security requirements for controlling changes to information assets, such as assessing the  impact of requested changes, classification of changes and the review of changes; \n  b. security testing, which should (if applicable) include: \n    1. penetration testing; \n    2. code review if applications are developed internally; \n    3. code review of externally developed applications and if the source code is available \n    4. a code review report (or equivalent, such as an independent assurance statement) in case the  source code cannot be provided; \n  c. approval of changes by the business owner; \n  d. approval from the cyber security function before submitting to Change Advisory Board (CAB);  \n  e. approval by CAB; \n  f. post-implementation review of the related cyber security controls; \n  g. development, testing and implementation are segregated for both the (technical) environment  and involved individuals; \n  h. the procedure for emergency changes and fixes; \n  i. fall-back and roll-back procedures. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.8",
+            "class": "SAMA_CSF_1.0",
+            "title": "Infrastructure Security ",
+            "parts": [
+              {
+                "id": "3.3.8_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement cyber security standards for their  infrastructure components. The compliance with these standards should be monitored and the  effectiveness should be measured and periodically evaluated. "
+              },
+              {
+                "id": "3.3.8_objective",
+                "name": "assessment-objective",
+                "prose": "To support that all cyber security controls within the infrastructure are formally documented and the  compliance is monitored and its effectiveness is evaluated periodically within the Member Organization. "
+              },
+              {
+                "id": "3.3.8_guidance",
+                "name": "guidance",
+                "prose": "1. The infrastructure security standards should be defined, approved and implemented.  \n2. The compliance with the infrastructure security standards should be monitored. \n3. The effectiveness of the infrastructure cyber security controls should be measured and periodically  evaluated. \n4. The infrastructure security standards should cover all instances of infrastructure available in the main  datacenter(s), the disaster recovery data site(s) and office spaces. \n5. The infrastructure security standards should cover all instances of infrastructure (e.g., operating  systems, servers, virtual machines, firewalls, network devices, IDS, IPS, wireless network, gateway  servers, proxy servers, email gateways, external connections, databases, file-shares, workstations,  laptops, tablets, mobile devices, PBX). \n6. The infrastructure security standard should include:\n  a. the cyber security controls implemented (e.g., configuration parameters, events to monitor and  retain [including system access and data], data-leakage prevention [DLP], identity and access  management, remote maintenance); \n  b. the segregation of duties within the infrastructure component (supported with a documented  authorization matrix); \n  c. the protection of data aligned with the (agreed) classification scheme (including privacy of  customer data and, avoiding unauthorized access and (un)intended data leakage); \n  d. the use of approved software and secure protocols; \n  e. segmentation of networks; \n  f. malicious code/software and virus protection (and applying application whitelisting and APT  protection); \n  g. vulnerability and patch management; \n  h. DDOS protection (where applicable); this should include: \n    1. the use of scrubbing services; \n    2. specification of the bandwidth agreed; \n    3. 24x7 monitoring by Security Operating Center (SOC), Service Provider (SP) and scrubbing  provider; \n    4. testing of DDOS scrubbing (minimum twice a year); \n    5. DDOS services should be implemented for the main datacenter(s) as well as the disaster  recovery site(s); \n  i. back-up and recovery procedures; \n  j. periodic cyber security compliance review. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.9",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cryptography ",
+            "parts": [
+              {
+                "id": "3.3.9_statement",
+                "name": "statement",
+                "prose": "The use of cryptographic solutions within the Member Organizations should be defined, approved and  implemented. "
+              },
+              {
+                "id": "3.3.9_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that access to and integrity of sensitive information is protected and the originator of  communication or transactions can be confirmed. "
+              },
+              {
+                "id": "3.3.9_guidance",
+                "name": "guidance",
+                "prose": "1. A cryptographic security standard should be defined, approved and implemented. \n2. The compliance with the cryptographic security standard should be monitored.  \n3. The effectiveness of the cryptographic security controls should be measured and periodically  evaluated. \n4. The cryptographic security standard should include: \n  a. an overview of the approved cryptographic solutions and relevant restrictions (e.g., technically,  legally); \n  b. the circumstances when the approved cryptographic solutions should be applied; \n  c. the management of encryption keys, including lifecycle management, archiving and recovery."
+              }
+            ]
+          },
+          {
+            "id": "3.3.10",
+            "class": "SAMA_CSF_1.0",
+            "title": "Bring Your Own Device (BYOD) ",
+            "parts": [
+              {
+                "id": "3.3.10_statement",
+                "name": "statement",
+                "prose": "When the Member Organization allows the use of personal devices (e.g., smartphones, tablets, laptops)  for business purposes, the use should be supported by a defined, approved and implemented cyber  security standard, additional staff agreements and a cyber security awareness training. "
+              },
+              {
+                "id": "3.3.10_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that business and sensitive information of the Member Organization is securely handled by  staff and protected during transmission and storage, when using personal devices. "
+              },
+              {
+                "id": "3.3.10_guidance",
+                "name": "guidance",
+                "prose": "1. The BYOD cyber security standard should be defined, approved and implemented. \n2. The compliance with the BYOD cyber security standard should be monitored.  \n3. The effectiveness of the BYOD cyber security controls should be measured and periodically evaluated. \n4. The BYOD standard should include: \n  a. responsibilities of the user (including awareness training); \n  b. information regarding the restrictions and consequences for staff when the Member Organization  implements cyber security controls on their personal devices; for example when using modified  devices (jailbreaking), terminating the employment or in case of loss or theft of the personal  device; \n  c. the isolation of business information from personal information (e.g., containerization); \n  d. the regulation of corporate mobile applications or approved “public” mobile applications; \n  e. the use of mobile device management (MDM); applying access controls to the device and business container and encryption mechanisms on the personal device (to ensure secure transmission and  storage). "
+              }
+            ]
+          },
+          {
+            "id": "3.3.11",
+            "class": "SAMA_CSF_1.0",
+            "title": "Secure Disposal of Information Assets ",
+            "parts": [
+              {
+                "id": "3.3.11_statement",
+                "name": "statement",
+                "prose": "The information assets of the Member Organization should be securely disposed when the information  assets are no longer required. "
+              },
+              {
+                "id": "3.3.11_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the Member Organization's business, customer and other sensitive information are  protected from leakage or unauthorized disclosure when disposed. "
+              },
+              {
+                "id": "3.3.11_guidance",
+                "name": "guidance",
+                "prose": "1. The secure disposal standard and procedure should be defined, approved and implemented. \n2. The compliance with the secure disposal standard and procedure should be monitored.  \n3. The effectiveness of the secure disposal cyber security controls should be measured and periodically  evaluated.  \n4. Information assets should be disposed in accordance with legal and regulatory requirements, when  no longer required (i.e. meeting data privacy regulations to avoid unauthorized access and avoid  (un)intended data leakage). \n5. Sensitive information should be destroyed using techniques to make the information non-retrievable  (e.g., secure erase, secure wiping, incineration, double crosscut, shredding).\n6. The Member Organization should ensure that third party service providers used for secure disposal,  transport and storage comply with the secure disposal standard and procedure and the effectiveness  is periodically measured and evaluated. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.12",
+            "class": "SAMA_CSF_1.0",
+            "title": "Payment Systems ",
+            "parts": [
+              {
+                "id": "3.3.12_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve, implement and monitor a cyber security standard for  payment systems. The effectiveness of this process should be measured and periodically evaluated. "
+              },
+              {
+                "id": "3.3.12_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure the Member Organization safeguards the confidentiality and integrity of shared banking  systems. "
+              },
+              {
+                "id": "3.3.12_guidance",
+                "name": "guidance",
+                "prose": "* For Saudi Arabian Riyal Interbank Express (SARIE) information, please refer to the SARIE  Information Security Policy, Version Issue 1.0 - June 2016. \n* For mada information, please refer to the following sections in the mada Rules and Standards  Technical Book (see appendix A): \n  * Part IIIa - Security Framework, Version Issue 6.0.0 - May 2016 \n  * Part IIIb - HSM Requirements, Version Issue 6.0.0 - May 2016 \n  * SAMA CA IPK Certificate Procedures, Version Issue 6.0.1 – October 2016 "
+              }
+            ]
+          },
+          {
+            "id": "3.3.13",
+            "class": "SAMA_CSF_1.0",
+            "title": "Electronic Banking Services ",
+            "parts": [
+              {
+                "id": "3.3.13_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve, implement and monitor a cyber security standard for  electronic banking services. The effectiveness of this standard should be measured and periodically  evaluated. "
+              },
+              {
+                "id": "3.3.13_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure the Member Organization safeguards the confidentiality and integrity of the customer  information and transactions. "
+              },
+              {
+                "id": "3.3.13_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security standards for electronic banking services should be defined, approved and  implemented.  \n2. The compliance with cyber security standards for electronic banking services should be monitored. \n3. The effectiveness of the cyber security standard for electronic banking services should be measured  and periodically evaluated. \n4. Electronic banking services security standard should cover: \n  a. use of brand protection measures to protect online services including social media. \n  b. online, mobile and phone banking: \n    1. use of official application stores and websites (applicable for online and mobile banking); \n    2. use of detection measures and take-down of malicious apps and websites (applicable for  online and mobile banking);\n    3. use of sandboxing (applicable for online and mobile banking); \n    4. use of non-caching techniques (applicable for online and mobile banking); \n    5. use of communication techniques to avoid ‘man-in-the-middle'-attacks (applicable for online  and mobile banking); \n    6. use of multi-factor authentication mechanisms: \n      a. multi-factor authentication should be used during the registration process for the  customer in order to use of electronic banking services; \n      b. multi-factor authentication should be implemented for all electronic banking services  available to customers; \n      c. the use of hard and soft tokens should be password protected; \n      d. revoking the access of customers after 3 successive incorrect passwords or invalid PINs; \n      e. the process for changing the customer mobile number should only be done from either a  branch or ATM; \n      f. the processes for requesting and activating of the multi-factor authentication should be  done through different delivery channels; \n      g. multi-factor authentication should be implemented for the following processes: \n        1. sign-on; \n        2. adding or modifying beneficiaries; \n        3. adding utility and government payment services; \n        4. high-risk transactions (when it exceeds predefined limits); \n        5. password reset; \n    7. the processes for adding and activating beneficiaries should be done through different delivery  channels (applicable for mobile and online banking); \n    8. high availability of the electronic banking services should be ensured; \n    9. scheduled downtime of the electronic banking services should be timely communicated to  SAMA and customers; \n    10. contractual agreements between the Member Organization and the customer addressing the  roles, responsibilities and liabilities for both the Member Organization and the customers;  \n    11. obtaining approval of SAMA before launching a new electronic banking service. \n  c. ATMs and POSs: \n    1. prevention and detection of exploiting the ATM/POS application and infrastructure  vulnerabilities (e.g., cables, (USB)-ports, rebooting); \n    2. cyber security measures, such as hardening of operating systems, malware protection, privacy  screens, masking of passwords or account numbers (e.g., screen and receipt), geo-blocking (e.g., disable cards per default for outside GCC countries, disable magnetic strip transactions),  video monitoring (CCTV), revoking cards after 3 successive invalid PINs, anti-skimming solutions (hardware/software), and PIN-pad protection; \n    3. remote stopping of ATMs in case of malicious activities. \n  d. SMS instant notification services: \n    1. SMS messages should not contain sensitive data (e.g., account balance - except for credit  cards); \n    2. SMS alert should be sent to both mobile numbers (old and new) when the customer's mobile  number has been changed; \n    3. SMS notification should be sent to the customer's mobile number when requesting a new  multi-factor authentication mechanism.\n    4. SMS notification should be sent to the customer's mobile number for all retail and personal financial transactions.  \n    5. SMS notification should be sent to the customer's mobile number when beneficiaries are  added, modified and activated."
+              }
+            ]
+          },
+          {
+            "id": "3.3.14",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Event Management ",
+            "parts": [
+              {
+                "id": "3.3.14_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement a security event management process  to analyze operational and security loggings and respond to security events. The effectiveness of this  process should be measured and periodically evaluated. "
+              },
+              {
+                "id": "3.3.14_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure timely identification and response to anomalies or suspicious events within regard to  information assets. "
+              },
+              {
+                "id": "3.3.14_guidance",
+                "name": "guidance",
+                "prose": "1. The security event management process should be defined, approved and implemented. \n2. The effectiveness of the cyber security controls within the security event management process should  be measured and periodically evaluated. \n3. To support this process a security event monitoring standard should be defined, approved and  implemented.  \n  a. the standard should address for all information assets the mandatory events which should be  monitored, based on the classification or risk profile of the information asset. \n4. The security event management process should include requirements for: \n  a. the establishment of a designated team responsible for security monitoring (i.e., Security  Operations Center (SOC)); \n  b. skilled and (continuously) trained staff; \n  c. a restricted area to facilitate SOC activities and workspaces; \n  d. resources required continuous security event monitoring activities (24x7); \n  e. detection and handling of malicious code and software; \n  f. detection and handling of security or suspicious events and anomalies; \n  g. deployment of security network packet analysis solution; \n  h. adequately protected logs; \n  i. periodic compliance monitoring of applications and infrastructure cyber security standards \n  j. automated and centralized analysis of security loggings and correlation of event or patterns (i.e., Security Information and Event Management (SIEM)); \n  k. reporting of cyber security incidents; \n  l. independent periodic testing of the effectiveness of the security operations center (e.g., red teaming). "
+              }
+            ]
+          },
+          {
+            "id": "3.3.15",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cyber Security Incident Management  ",
+            "parts": [
+              {
+                "id": "3.3.15_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement a cyber security incident management that is aligned with the enterprise incident management process, to identify, respond to and recover from  cyber security incidents. The effectiveness of this process should be measured and periodically evaluated."
+              },
+              {
+                "id": "3.3.15_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure timely identification and handling of cyber security incidents in order to reduce the (potential)  business impact for the Member Organization. "
+              },
+              {
+                "id": "3.3.15_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security incident management process should be defined, approved, implemented and  aligned with the enterprise incident management process.  \n2. The effectiveness of the cyber security controls within the cyber security incident management  process should be measured and periodically evaluated. \n3. The standard should address the mandatory and suspicious security events which should be responded to. \n4. The security incident management process should include requirements for: \n  a. the establishment of a designated team responsible for security incident management; \n  b. skilled and (continuously) trained staff; \n  c. sufficient capacity available of certified forensic staff for handling major incidents (e.g., internal  staff or contracting an external forensic team); \n  d. a restricted area to facilitate the computer emergency response team (CERT) workspaces; \n  e. the classification of cyber security incidents; \n  f. the timely handling of cyber security incidents, recording and monitoring progress; \n  g. the protection of relevant evidence and loggings; \n  h. post-incident activities, such as forensics, root-cause analysis of the incidents;  \n  i. reporting of suggested improvements to the CISO and the Committee; \n  j. establish a cyber security incident repository. \n5. The Member Organization should inform ‘SAMA IT Risk Supervision' immediately when a medium or  high classified security incident has occurred and identified. \n6. The Member Organization should obtain ‘no objection' from ‘SAMA IT Risk Supervision' before any  media interaction related to the incident. \n7. The Member Organization should submit a formal incident report ‘SAMA IT Risk Supervision' after  resuming operations, including the following incident details: \n  a. title of incident; \n  b. classification of the incident (medium or high); \n  c. date and time of incident occurred; \n  d. date and time of incident detected; \n  e. information assets involved; \n  f. (technical) details of the incident;  \n  g. root-cause analysis; \n  h. corrective activities performed and planned; \n  i. description of impact (e.g., loss of data, disruption of services, unauthorized modification of data,  (un)intended data leakage, number of customers impacted); \n  j. total estimated cost of incident; \n  k. estimated cost of corrective actions. "
+              }
+            ]
+          },
+          {
+            "id": "3.3.16",
+            "class": "SAMA_CSF_1.0",
+            "title": "Threat Management  ",
+            "parts": [
+              {
+                "id": "3.3.16_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement a threat intelligence management  process to identify, assess and understand threats to the Member Organization information assets, using multiple reliable sources. The effectiveness of this process should be measured and periodically  evaluated. "
+              },
+              {
+                "id": "3.3.16_objective",
+                "name": "assessment-objective",
+                "prose": "To obtain an adequate understanding of the Member Organization's emerging threat posture. "
+              },
+              {
+                "id": "3.3.16_guidance",
+                "name": "guidance",
+                "prose": "1. The threat intelligence management process should be defined, approved and implemented. \n2. The effectiveness of the threat intelligence management process should be measured and periodically  evaluated. \n3. The threat intelligence management process should include: \n  a. the use of internal sources, such as access control, application and infrastructure logs, IDS, IPS,  security tooling, Security Information and Event Monitoring (SIEM), support functions (e.g., Legal,  Audit, IT Helpdesk, Forensics, Fraud Management, Risk Management, Compliance); \n  b. the use of reliable and relevant external sources, such as SAMA, government agencies, security  forums, (security) vendors, security organizations and specialist notification services; \n  c. a defined methodology to analyze the threat information periodically; \n  d. the relevant details on identified or collected threats, such as modus operandi, actors, motivation  and type of threats; \n  e. the relevance of the derived intelligence and the action-ability for follow-up (for e.g., SOC, Risk  Management); \n  f. sharing the relevant intelligence with the relevant stakeholders (e.g., SAMA, BCIS members). "
+              }
+            ]
+          },
+          {
+            "id": "3.3.17",
+            "class": "SAMA_CSF_1.0",
+            "title": "Vulnerability Management  ",
+            "parts": [
+              {
+                "id": "3.3.17_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve and implement a vulnerability management process  for the identification and mitigation of application and infrastructural vulnerabilities. The effectiveness of  this process should be measured and the effectiveness should be periodically evaluated. "
+              },
+              {
+                "id": "3.3.17_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure timely identification and effective mitigation of application and infrastructure vulnerabilities in  order to reduce the likelihood and business impact for the Member Organization. "
+              },
+              {
+                "id": "3.3.17_guidance",
+                "name": "guidance",
+                "prose": "1. The vulnerability management process should be defined, approved and implemented. \n2. The effectiveness of the vulnerability management process should be measured and periodically  evaluated. \n3. The vulnerability management process should include: \n  a. all information assets; \n  b. frequency of performing the vulnerability scan (risk-based); \n  c. classification of vulnerabilities; \n  d. defined timelines to mitigate (per classification); \n  e. prioritization for classified information assets; \n  f. patch management and method of deployment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3.4",
+        "class": "family",
+        "title": "Third Party Cyber Security",
+        "parts": [
+          {
+            "id": "3.4_statement",
+            "name": "statement",
+            "prose": "When Member Organizations do rely on, or have to deal with third party services, it is key to ensure the  same level of cyber security protection is implemented at the third party, as within the Member  Organization.\n\nThis paragraph describes how the cyber security requirements between the Member Organization and  Third Parties should be organized, implemented and monitored. Third Parties in this Framework are  defined as, information services providers, outsourcing providers, cloud computing providers, vendors,  suppliers, governmental agencies, etc."
+          }
+        ],
+        "controls": [
+          {
+            "id": "3.4.1",
+            "class": "SAMA_CSF_1.0",
+            "title": "Contract and Vendor Management ",
+            "parts": [
+              {
+                "id": "3.4.1_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, approve, implement and monitor the required cyber security controls within the contract and vendor management processes. "
+              },
+              {
+                "id": "3.4.1_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the Member Organization's approved cyber security requirements are appropriately  addressed before signing the contract, and the compliance with the cyber security requirements is being  monitored and evaluated during the contract life-cycle. "
+              },
+              {
+                "id": "3.4.1_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security requirements should be defined, approved, implemented and communicated  within the contract and vendor management processes. \n2. The compliance with contract and vendor management process should be monitored. \n3. The effectiveness of the cyber security controls within the contract and vendor management process  should be measured and periodically evaluated. \n4. These contract and vendor management processes should cover: \n  a. whether the involvement of the cyber security function is actively required (e.g., in case of due  diligence); \n  b. the baseline cyber security requirements which should be applied in all cases; \n  c. the right to periodically perform cyber security reviews and audits. \n5. The contract management process should cover requirements for: \n  a. executing a cyber security risk assessment as part of the procurement process; \n  b. defining the specific cyber security requirements as part of the tender process; \n  c. evaluating the replies of potential vendors on the defined cyber security requirements; \n  d. testing of the agreed cyber security requirements (risk-based); \n  e. defining the communication or escalation process in case of cyber security incidents; \n  f. ensuring cybersecurity requirements are defined for exiting, terminating or renewing the contract (including escrow agreements if applicable); \n  g. defining a mutual confidentiality agreement. \n6. The vendor management process (i.e., service level management) should cover requirements for: \n  a. periodic reporting, reviewing and evaluating the contractually agreed cybersecurity requirements  (in SLAs)."
+              }
+            ]
+          },
+          {
+            "id": "3.4.2",
+            "class": "SAMA_CSF_1.0",
+            "title": "Outsourcing ",
+            "parts": [
+              {
+                "id": "3.4.2_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, implement and monitor the required cyber security controls  within outsourcing policy and outsourcing process. The effectiveness of the defined cyber security controls should periodically be measured and evaluated. "
+              },
+              {
+                "id": "3.4.2_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that the Member Organization's cyber security requirements are appropriately addressed  before, during and while exiting outsourcing contracts. "
+              },
+              {
+                "id": "3.4.2_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security requirements within the outsourcing policy and process should be defined,  approved, implemented and communicated within Member Organization. \n2. The cyber security requirements regarding the outsourcing policy and process should be measured  and periodically evaluated. \n3. The outsourcing process should include: \n  a. the approval from SAMA prior to material outsourcing;  \n  b. the involvement of the cyber security function; \n  c. compliance with the SAMA circular on outsourcing. "
+              }
+            ]
+          },
+          {
+            "id": "3.4.3",
+            "class": "SAMA_CSF_1.0",
+            "title": "Cloud Computing ",
+            "parts": [
+              {
+                "id": "3.4.3_statement",
+                "name": "statement",
+                "prose": "The Member Organization should define, implement and monitor the required cyber security controls  within the cloud computing policy and process for hybrid and public cloud services. The effectiveness of the defined cyber security controls should periodically be measured and evaluated. \n\nPlease note that this requirement is not applicable to private cloud services (= internal cloud)."
+              },
+              {
+                "id": "3.4.3_objective",
+                "name": "assessment-objective",
+                "prose": "To ensure that all functions and staff within the Member Organization are aware of the agreed direction  and position on hybrid and public cloud services, the required process to apply for hybrid and public cloud  services, the risk appetite on hybrid and public cloud services and the specific cyber security requirements  for hybrid and public cloud services. "
+              },
+              {
+                "id": "3.4.3_guidance",
+                "name": "guidance",
+                "prose": "1. The cyber security controls within the cloud computing policy for hybrid and public cloud services  should be defined, approved and implemented and communicated within Member Organization. \n2. The compliance with the cloud computing policy should be monitored. \n3. The cyber security controls regarding the cloud computing policy and process for hybrid and public  cloud services should be periodically measured and evaluated. \n4. The cloud computing policy for hybrid and public cloud services should address requirements for: \n  a. the process for adopting cloud services, including that: \n    1. a cyber security risk assessment and due diligence on the cloud service provider and its cloud  services should be performed;\n    2. the Member Organization should obtain SAMA approval prior to using cloud services or signing  the contract with the cloud provider; \n    3. a contract should be in place, including the cyber security requirements, before using cloud  services; \n  b. data location, including that: \n    1. in principle only cloud services should be used that are located in Saudi Arabia, or when cloud  services are to be used outside Saudi Arabia that the Member Organization should obtain  explicit approval from SAMA; \n  c. data use limitations, including that: \n    1. the cloud service provider should not use the Member Organization's data for secondary  purposes; \n  d. security, including that: \n    1. the cloud service provider should implement and monitor the cyber security controls as  determined in the risk assessment for protecting the confidentiality, integrity and availability  of the Member Organization's data; \n  e. data segregation, including that: \n    1. the Member Organization's data is logically segregated from other data held by the cloud  service provider, including that the cloud service provider should be able to identify the  Member Organization's data and at all times should be able to distinguish it from other data. \n  f. business continuity, including that: \n    1. business continuity requirements are met in accordance with the Member Organization's  business continuity policy; \n  g. audit, review and monitoring, including that: \n    1. the Member Organization has the right to perform a cyber security review at the cloud service  provider; \n    2. the Member Organization has the right to perform a cyber security audit at the cloud service  provider; \n    3. the Member Organization has the right to perform a cyber security examination at the cloud  service provider; \n  h. exit, including that: \n    1. the Member Organization has termination rights; \n    2. the cloud service provider has to return the Member Organization's data on termination; \n    3. the cloud service provider has to irreversibly delete the Member Organization's data on  termination. "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

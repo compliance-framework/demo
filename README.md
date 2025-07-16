@@ -2,7 +2,7 @@
 
 Welcome to the demo environment for the Continuous Compliance Framework.
 
-This demo runs the basic components necessary for the framework, and serves to give you a simple way to run and 
+This demo runs the basic components necessary for the framework, and serves to give you a simple way to run and
 validate whether it fits your needs.
 
 ## Prerequisites
@@ -14,12 +14,7 @@ You'll need to have Docker Compose or Podman Compose installed to run this demo.
 ```shell
 make help # Displays all the things you can do with this demo.
 
-# Run the framework, it's UI, and 2 demo "workers"
-make up # Access via http://localhost:8000 in your browser 
-
-# Load up the NIST SP800-53 Catalog & Example System Security Plan
-make load-catalogs
-make load-system-security-plans
+make up # Access via http://localhost:8000 in your browser
 ```
 
 ## Components

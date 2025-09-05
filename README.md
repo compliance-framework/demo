@@ -21,7 +21,7 @@ make up # Access via http://localhost:8000 in your browser
 
 The demo consists of a few key parts:
 
-* The API https://github.com/compliance-framework/configuration-service
+* The API https://github.com/compliance-framework/api
 * The UI https://github.com/compliance-framework/ui
 * The Agent https://github.com/compliance-framework/agent
 

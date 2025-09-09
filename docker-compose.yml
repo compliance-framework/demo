@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:17
+    image: ghcr.io/compliance-framework/pg-ccf:0.0.5
     container_name: postgres-db
     restart: always
     environment:

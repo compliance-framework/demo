@@ -15,7 +15,7 @@ services:
       - continuous-compliance
 
   ui:
-    image: ghcr.io/compliance-framework/ui:2.0.3-patch1
+    image: ghcr.io/compliance-framework/ui:2.0.6
     ports:
       - 8000:80
     volumes:
@@ -48,7 +48,7 @@ services:
       - continuous-compliance
 
   api:
-    image: ghcr.io/compliance-framework/api:0.4.4
+    image: ghcr.io/compliance-framework/api:0.4.6
     ports:
       - 8080:8080
     volumes:

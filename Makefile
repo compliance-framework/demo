@@ -40,8 +40,8 @@ build: docker-check ## Bring up common services and agents only
 
 up: docker-check ## Bring up environment
 	$(COMPOSE_COMMAND) up -d
+	@./scripts/check-db-up.sh
 	@make load-data
-	@sleep 5
 	@make create-user
 
 down: docker-check ## Bring down environment
@@ -64,3 +64,6 @@ create-user:
 	@./scripts/create-user.sh
 	@echo "\033[1mCCF User: username=admin@example.com password=password\033[0m"
 	@echo "... creating CCF user done"   ## Load all the data in for the demo
+
+access-db:   ## Access Postgres database
+	@docker exec -ti postgres-db psql -Upostgres ccf

@@ -15,7 +15,7 @@ services:
       - continuous-compliance
 
   ui:
-    image: ghcr.io/compliance-framework/ui:2.0.8
+    image: ghcr.io/compliance-framework/ui:2.6.1
     ports:
       - 8000:80
     volumes:
@@ -48,7 +48,7 @@ services:
       - continuous-compliance
 
   api:
-    image: ghcr.io/compliance-framework/api:0.4.10
+    image: ghcr.io/compliance-framework/api:0.11.0
     ports:
       - 8080:8080
     volumes:
@@ -60,6 +60,8 @@ services:
       APP_PORT: 8080
       CCF_DB_DRIVER: postgres
       CCF_DB_CONNECTION: host=postgres user=postgres password=postgres dbname=ccf port=5432 sslmode=disable
+      CCF_ENVIRONMENT: local
+      CCF_API_ALLOWED_ORIGINS: http://localhost:3000,http://localhost:8000
     networks:
       - continuous-compliance
 

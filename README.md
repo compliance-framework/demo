@@ -33,3 +33,14 @@ The demo also runs 2 plugins and policies suites:
 * It's policies https://github.com/compliance-framework/plugin-apt-versions-policies
 
 For more information on how these work, visit https://compliance-framework.github.io/docs/
+
+
+## Some examples:
+
+* Go To Implementation -> System security Plans -> click "Set" on FedRamp SSP
+* Go to System -> Select profile: "FedRAMP Rev 5 Low Baseline"
+* Go to Controls - select ac-1.a.1
+* Click on Evidence Linking -> Add Dashboard give it any name
+* Select Evidence as baselines - Wget version is safe.
+* See the counters appear for ac-1
+* go to evidence, see all gathered evidence with the ssh-plugin
